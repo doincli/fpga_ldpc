@@ -1,0 +1,97 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/ila_1/sim/ila_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H3_4/sim/H3_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H3_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H3_3/sim/H3_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H3_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H3_2/sim/H3_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H3_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H3_1/sim/H3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H2_4/sim/H2_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H2_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H2_3/sim/H2_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H2_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H2_2/sim/H2_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H2_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H2_1/sim/H2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H1_4/sim/H1_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H1_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H1_3/sim/H1_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H1_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H1_2/sim/H1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/H1_1/sim/H1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/coe4_4/sim/coe4_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coe4_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/coe4_3/sim/coe4_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coe4_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/coe4_2/sim/coe4_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coe4_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/coe4_1/sim/coe4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module coe4_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/fifo_in/sim/fifo_in.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_in
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/ten_bit/ten_bit_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_bit_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/ten_bit/ten_bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/decode/decode/example_design/decode_tx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_TX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/decode/decode/example_design/decode_rx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_RX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/decode/decode_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/decode/decode_cpll_railing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_cpll_railing
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/decode/decode_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_GT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/decode/decode_multi_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_multi_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/decode/decode/example_design/decode_sync_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_sync_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/ip/decode/decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/decode_code/all_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module all_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/decode_code/buff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module buff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/example_design/support/decode_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/example_design/support/decode_common_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_common_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/example_design/decode_exdes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_exdes
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/example_design/decode_gt_frame_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_GT_FRAME_GEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/example_design/support/decode_gt_usrclk_source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_GT_USRCLK_SOURCE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/decode_code/decode_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/example_design/support/decode_support.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_support
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/decode_code/error_comp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module error_comp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/decode_code/error_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module error_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/decode_code/f_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module f_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/decode_code/find_max.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module find_max
+INFO: [VRFC 10-311] analyzing module meg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/new/fn_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fn_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/new/fn_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fn_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/new/fn_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fn_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/new/fn_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fn_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sources_1/imports/decode_code/invert.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module invert
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/test_ldpc_5tongdao/test_ldpc.srcs/sim_1/new/decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_TB

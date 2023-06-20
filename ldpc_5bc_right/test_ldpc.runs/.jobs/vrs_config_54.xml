@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="coe4_1_synth_1" LaunchDir="C:/Users/doinc/Desktop/test_ldpc_2gai/test_ldpc.runs/coe4_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="coe4_2_synth_1" LaunchDir="C:/Users/doinc/Desktop/test_ldpc_2gai/test_ldpc.runs/coe4_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="coe4_3_synth_1" LaunchDir="C:/Users/doinc/Desktop/test_ldpc_2gai/test_ldpc.runs/coe4_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="coe4_4_synth_1" LaunchDir="C:/Users/doinc/Desktop/test_ldpc_2gai/test_ldpc.runs/coe4_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/doinc/Desktop/test_ldpc_2gai/test_ldpc.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="coe4_1_synth_1"/>
+		<Parent Id="coe4_2_synth_1"/>
+		<Parent Id="coe4_3_synth_1"/>
+		<Parent Id="coe4_4_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/doinc/Desktop/test_ldpc_2gai/test_ldpc.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_1"/>
+		<Parent Id="coe4_1_synth_1"/>
+		<Parent Id="coe4_2_synth_1"/>
+		<Parent Id="coe4_3_synth_1"/>
+		<Parent Id="coe4_4_synth_1"/>
+	</Run>
+</Runs>
+

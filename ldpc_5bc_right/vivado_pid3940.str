@@ -1,0 +1,181 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 3940
+License: Customer
+
+Current time: 	Fri Mar 11 18:26:23 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2048x1152
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 21 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: C:/Users/Administrator/Desktop/decode/test_ldpc_2gai
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/xilinx/Vivado
+HDI_APPROOT: D:/xilinx/Vivado/2017.4
+RDI_DATADIR: D:/xilinx/Vivado/2017.4/data
+RDI_BINDIR: D:/xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/vivado.log
+Vivado journal file location: 	C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/vivado.jou
+Engine tmp dir: 	C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/.Xil/Vivado-3940-User-2021FZLJGL
+
+GUI allocated memory:	197 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 574 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Administrator\Desktop\decode\test_ldpc_2gai\test_ldpc.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// [GUI Memory]: 52 MB (+52373kb) [00:00:05]
+// [Engine Memory]: 503 MB (+376056kb) [00:00:05]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/test_ldpc.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 37 MB. Current time: 3/11/22 6:26:25 PM CST
+// [Engine Memory]: 625 MB (+101183kb) [00:00:10]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 57 MB (+2265kb) [00:00:11]
+// [GUI Memory]: 63 MB (+3189kb) [00:00:11]
+// [GUI Memory]: 70 MB (+3703kb) [00:00:11]
+// [Engine Memory]: 658 MB (+1640kb) [00:00:12]
+// [Engine Memory]: 695 MB (+4543kb) [00:00:12]
+// [GUI Memory]: 75 MB (+1584kb) [00:00:13]
+// Tcl Message: open_project C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/test_ldpc.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/ip2g/test32'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/ip2g/3_11test'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/ip2g/tongdao2_2g_4'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/ip2g/delay30'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/ip2g/gai11'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Administrator/Desktop/ip_test_2g'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2017.4/data/ip'. 
+// [GUI Memory]: 81 MB (+2756kb) [00:00:14]
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:09 . Memory (MB): peak = 905.230 ; gain = 179.102 
+// Project name: test_ldpc; location: C:/Users/Administrator/Desktop/decode/test_ldpc_2gai; part: xc7k325tffg900-2
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 88 MB (+2982kb) [00:00:16]
+// TclEventType: DG_GRAPH_GENERATED
+// a (cj): Critical Messages: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, all_control (all_control.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, all_control (all_control.v), ten_bei : tenbei (tenbei.xci)]", 2, false); // B (D, cj)
+// [GUI Memory]: 97 MB (+5191kb) [00:00:23]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// [Engine Memory]: 737 MB (+7592kb) [00:00:28]
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aF (Q, cj)
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/test_ldpc.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/test_ldpc.sim/sim_1/behav/xsim' 
+// Tcl Message: Vivado Simulator 2017.4 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: D:/xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 14b4452acabe470991f92450c17114e6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_1 -L dist_mem_gen_v8_0_12 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ram_test_tb_behav xil_defaultlib.ram_test_tb xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// Tcl Message: Compiling module xil_defaultlib.error_control Compiling module xil_defaultlib.f_comp 
+// Tcl Message: Compiling module xil_defaultlib.f_control Compiling module xil_defaultlib.meg Compiling module xil_defaultlib.find_max_default 
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 60 MB. Current time: 3/11/22 6:27:06 PM CST
+// Elapsed time: 33 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 16); // B (D, cj)
+// TclEventType: LAUNCH_SIM
+// Tcl Message: ERROR: [XSIM 43-3345] Unable to remove previous simulation file xsim.dir/ram_test_tb_behav/xsimk.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: ¾Ü¾ø·ÃÎÊ¡£: "xsim.dir/ram_test_tb_behav/xsimk.exe". ERROR: [XSIM 43-3238] Failed to link the design. 
+// Tcl Message: run_program: Time (s): cpu = 00:00:05 ; elapsed = 00:00:34 . Memory (MB): peak = 920.824 ; gain = 3.223 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '34' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/test_ldpc.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/test_ldpc.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:39 . Memory (MB): peak = 975.289 ; gain = 67.016 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+dismissDialog("Run Simulation"); // e (cj)
+// [Engine Memory]: 796 MB (+22921kb) [00:01:06]
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (cj): Critical Messages: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 796 MB. GUI used memory: 63 MB. Current time: 3/11/22 6:27:26 PM CST
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 17); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ram_test_tb (tb_test.v)]", 18, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, ram_test_tb (tb_test.v)]", 18, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("tb_test.v", 420, 335); // cd (w, cj)
+typeControlKey(null, null, 'z');
+selectCodeEditor("tb_test.v", 408, 348); // cd (w, cj)
+// [GUI Memory]: 102 MB (+22kb) [00:01:29]

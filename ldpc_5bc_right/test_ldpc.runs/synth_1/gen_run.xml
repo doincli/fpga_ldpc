@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1654196377">
+  <File Type="PA-TCL" Name="decode_exdes.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="decode_exdes_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="decode_exdes_reports.tcl"/>
+  <File Type="RDS-RDS" Name="decode_exdes.vds"/>
+  <File Type="RDS-UTIL" Name="decode_exdes_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="decode_exdes_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="decode_exdes.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="decode_exdes_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="decode_exdes_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/ila_1/ila_1.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/ten_bit/ten_bit.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/decode_code/all_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/all_control.v"/>
+        <Attr Name="ImportTime" Val="1646312410"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/decode_code/buff.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/buff.v"/>
+        <Attr Name="ImportTime" Val="1646312246"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/support/decode_common.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/decode_ex/decode_ex.srcs/sources_1/imports/example_design/support/decode_common.v"/>
+        <Attr Name="ImportTime" Val="1647020600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/support/decode_common_reset.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/decode_ex/decode_ex.srcs/sources_1/imports/example_design/support/decode_common_reset.v"/>
+        <Attr Name="ImportTime" Val="1647020600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/decode_gt_frame_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/decode_ex/decode_ex.srcs/sources_1/imports/example_design/decode_gt_frame_gen.v"/>
+        <Attr Name="ImportTime" Val="1647020794"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/support/decode_gt_usrclk_source.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/decode_ex/decode_ex.srcs/sources_1/imports/example_design/support/decode_gt_usrclk_source.v"/>
+        <Attr Name="ImportTime" Val="1647020600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/decode_code/decode_out.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/decode_out.v"/>
+        <Attr Name="ImportTime" Val="1646359686"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/support/decode_support.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/decode_ex/decode_ex.srcs/sources_1/imports/example_design/support/decode_support.v"/>
+        <Attr Name="ImportTime" Val="1647020600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/decode_code/error_comp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/error_comp.v"/>
+        <Attr Name="ImportTime" Val="1646192852"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/decode_code/error_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/error_control.v"/>
+        <Attr Name="ImportTime" Val="1646278284"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/decode_code/f_control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/f_control.v"/>
+        <Attr Name="ImportTime" Val="1646330114"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/decode_code/find_max.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/find_max.v"/>
+        <Attr Name="ImportTime" Val="1646192780"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fn_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fn_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fn_3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fn_4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/decode_code/invert.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/invert.v"/>
+        <Attr Name="ImportTime" Val="1646359676"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/decode_exdes.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../decode_code/decode_ex/decode_ex.srcs/sources_1/imports/example_design/decode_exdes.v"/>
+        <Attr Name="ImportTime" Val="1647020752"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/coe4_1/coe4_1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/coe4_2/coe4_2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/coe4_3/coe4_3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/coe4_4/coe4_4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H1_1/coe1_1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H1_2/coe1_2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H1_3/coe1_3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H1_4/coe1_4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H2_1/coe2_1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H2_2/coe2_2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H2_3/coe2_3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H2_4/coe2_4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H3_1/coe3_1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H3_2/coe3_2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H3_3/coe3_3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/H3_4/coe3_4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="decode_exdes"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/decode_exds.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/decode_exds.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="coe4_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_in"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_generator_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="H3_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="H2_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="H1_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="coe4_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="coe4_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="coe4_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="H1_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="H2_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="H1_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="H3_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="H2_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="H1_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="H3_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="H2_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="H3_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="decode"/>
+</GenRun>

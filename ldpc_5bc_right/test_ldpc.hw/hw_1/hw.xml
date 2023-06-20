@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2017.4 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7k325t_0" gui_info="dashboard1=hw_ila_1[xc7k325t_0/hw_ila_1/Settings=ILA_SETTINGS_1;xc7k325t_0/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;xc7k325t_0/hw_ila_1/Waveform=ILA_WAVE_1;xc7k325t_0/hw_ila_1/Status=ILA_STATUS_1;xc7k325t_0/hw_ila_1/Capture Setup=ILA_CAPTURE_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7k325t_0" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/decode_exdes.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/decode_exdes.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/decode_exdes.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="decode_test/decode_out1/ila1" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="l1" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe0[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="decode[15]"/>
+        <net name="decode[14]"/>
+        <net name="decode[13]"/>
+        <net name="decode[12]"/>
+        <net name="decode[11]"/>
+        <net name="decode[10]"/>
+        <net name="decode[9]"/>
+        <net name="decode[8]"/>
+        <net name="decode[7]"/>
+        <net name="decode[6]"/>
+        <net name="decode[5]"/>
+        <net name="decode[4]"/>
+        <net name="decode[3]"/>
+        <net name="decode[2]"/>
+        <net name="decode[1]"/>
+        <net name="decode[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq4&apos;hX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe0[3:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="decode_test/decode_out1/ilte_num[3]"/>
+        <net name="decode_test/decode_out1/ilte_num[2]"/>
+        <net name="decode_test/decode_out1/ilte_num[1]"/>
+        <net name="decode_test/decode_out1/ilte_num[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq512&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq512&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[511:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq512&apos;hXXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="decode_test/decode_out1/temp_code[511]"/>
+        <net name="decode_test/decode_out1/temp_code[510]"/>
+        <net name="decode_test/decode_out1/temp_code[509]"/>
+        <net name="decode_test/decode_out1/temp_code[508]"/>
+        <net name="decode_test/decode_out1/temp_code[507]"/>
+        <net name="decode_test/decode_out1/temp_code[506]"/>
+        <net name="decode_test/decode_out1/temp_code[505]"/>
+        <net name="decode_test/decode_out1/temp_code[504]"/>
+        <net name="decode_test/decode_out1/temp_code[503]"/>
+        <net name="decode_test/decode_out1/temp_code[502]"/>
+        <net name="decode_test/decode_out1/temp_code[501]"/>
+        <net name="decode_test/decode_out1/temp_code[500]"/>
+        <net name="decode_test/decode_out1/temp_code[499]"/>
+        <net name="decode_test/decode_out1/temp_code[498]"/>
+        <net name="decode_test/decode_out1/temp_code[497]"/>
+        <net name="decode_test/decode_out1/temp_code[496]"/>
+        <net name="decode_test/decode_out1/temp_code[495]"/>
+        <net name="decode_test/decode_out1/temp_code[494]"/>
+        <net name="decode_test/decode_out1/temp_code[493]"/>
+        <net name="decode_test/decode_out1/temp_code[492]"/>
+        <net name="decode_test/decode_out1/temp_code[491]"/>
+        <net name="decode_test/decode_out1/temp_code[490]"/>
+        <net name="decode_test/decode_out1/temp_code[489]"/>
+        <net name="decode_test/decode_out1/temp_code[488]"/>
+        <net name="decode_test/decode_out1/temp_code[487]"/>
+        <net name="decode_test/decode_out1/temp_code[486]"/>
+        <net name="decode_test/decode_out1/temp_code[485]"/>
+        <net name="decode_test/decode_out1/temp_code[484]"/>
+        <net name="decode_test/decode_out1/temp_code[483]"/>
+        <net name="decode_test/decode_out1/temp_code[482]"/>
+        <net name="decode_test/decode_out1/temp_code[481]"/>
+        <net name="decode_test/decode_out1/temp_code[480]"/>
+        <net name="decode_test/decode_out1/temp_code[479]"/>
+        <net name="decode_test/decode_out1/temp_code[478]"/>
+        <net name="decode_test/decode_out1/temp_code[477]"/>
+        <net name="decode_test/decode_out1/temp_code[476]"/>
+        <net name="decode_test/decode_out1/temp_code[475]"/>
+        <net name="decode_test/decode_out1/temp_code[474]"/>
+        <net name="decode_test/decode_out1/temp_code[473]"/>
+        <net name="decode_test/decode_out1/temp_code[472]"/>
+        <net name="decode_test/decode_out1/temp_code[471]"/>
+        <net name="decode_test/decode_out1/temp_code[470]"/>
+        <net name="decode_test/decode_out1/temp_code[469]"/>
+        <net name="decode_test/decode_out1/temp_code[468]"/>
+        <net name="decode_test/decode_out1/temp_code[467]"/>
+        <net name="decode_test/decode_out1/temp_code[466]"/>
+        <net name="decode_test/decode_out1/temp_code[465]"/>
+        <net name="decode_test/decode_out1/temp_code[464]"/>
+        <net name="decode_test/decode_out1/temp_code[463]"/>
+        <net name="decode_test/decode_out1/temp_code[462]"/>
+        <net name="decode_test/decode_out1/temp_code[461]"/>
+        <net name="decode_test/decode_out1/temp_code[460]"/>
+        <net name="decode_test/decode_out1/temp_code[459]"/>
+        <net name="decode_test/decode_out1/temp_code[458]"/>
+        <net name="decode_test/decode_out1/temp_code[457]"/>
+        <net name="decode_test/decode_out1/temp_code[456]"/>
+        <net name="decode_test/decode_out1/temp_code[455]"/>
+        <net name="decode_test/decode_out1/temp_code[454]"/>
+        <net name="decode_test/decode_out1/temp_code[453]"/>
+        <net name="decode_test/decode_out1/temp_code[452]"/>
+        <net name="decode_test/decode_out1/temp_code[451]"/>
+        <net name="decode_test/decode_out1/temp_code[450]"/>
+        <net name="decode_test/decode_out1/temp_code[449]"/>
+        <net name="decode_test/decode_out1/temp_code[448]"/>
+        <net name="decode_test/decode_out1/temp_code[447]"/>
+        <net name="decode_test/decode_out1/temp_code[446]"/>
+        <net name="decode_test/decode_out1/temp_code[445]"/>
+        <net name="decode_test/decode_out1/temp_code[444]"/>
+        <net name="decode_test/decode_out1/temp_code[443]"/>
+        <net name="decode_test/decode_out1/temp_code[442]"/>
+        <net name="decode_test/decode_out1/temp_code[441]"/>
+        <net name="decode_test/decode_out1/temp_code[440]"/>
+        <net name="decode_test/decode_out1/temp_code[439]"/>
+        <net name="decode_test/decode_out1/temp_code[438]"/>
+        <net name="decode_test/decode_out1/temp_code[437]"/>
+        <net name="decode_test/decode_out1/temp_code[436]"/>
+        <net name="decode_test/decode_out1/temp_code[435]"/>
+        <net name="decode_test/decode_out1/temp_code[434]"/>
+        <net name="decode_test/decode_out1/temp_code[433]"/>
+        <net name="decode_test/decode_out1/temp_code[432]"/>
+        <net name="decode_test/decode_out1/temp_code[431]"/>
+        <net name="decode_test/decode_out1/temp_code[430]"/>
+        <net name="decode_test/decode_out1/temp_code[429]"/>
+        <net name="decode_test/decode_out1/temp_code[428]"/>
+        <net name="decode_test/decode_out1/temp_code[427]"/>
+        <net name="decode_test/decode_out1/temp_code[426]"/>
+        <net name="decode_test/decode_out1/temp_code[425]"/>
+        <net name="decode_test/decode_out1/temp_code[424]"/>
+        <net name="decode_test/decode_out1/temp_code[423]"/>
+        <net name="decode_test/decode_out1/temp_code[422]"/>
+        <net name="decode_test/decode_out1/temp_code[421]"/>
+        <net name="decode_test/decode_out1/temp_code[420]"/>
+        <net name="decode_test/decode_out1/temp_code[419]"/>
+        <net name="decode_test/decode_out1/temp_code[418]"/>
+        <net name="decode_test/decode_out1/temp_code[417]"/>
+        <net name="decode_test/decode_out1/temp_code[416]"/>
+        <net name="decode_test/decode_out1/temp_code[415]"/>
+        <net name="decode_test/decode_out1/temp_code[414]"/>
+        <net name="decode_test/decode_out1/temp_code[413]"/>
+        <net name="decode_test/decode_out1/temp_code[412]"/>
+        <net name="decode_test/decode_out1/temp_code[411]"/>
+        <net name="decode_test/decode_out1/temp_code[410]"/>
+        <net name="decode_test/decode_out1/temp_code[409]"/>
+        <net name="decode_test/decode_out1/temp_code[408]"/>
+        <net name="decode_test/decode_out1/temp_code[407]"/>
+        <net name="decode_test/decode_out1/temp_code[406]"/>
+        <net name="decode_test/decode_out1/temp_code[405]"/>
+        <net name="decode_test/decode_out1/temp_code[404]"/>
+        <net name="decode_test/decode_out1/temp_code[403]"/>
+        <net name="decode_test/decode_out1/temp_code[402]"/>
+        <net name="decode_test/decode_out1/temp_code[401]"/>
+        <net name="decode_test/decode_out1/temp_code[400]"/>
+        <net name="decode_test/decode_out1/temp_code[399]"/>
+        <net name="decode_test/decode_out1/temp_code[398]"/>
+        <net name="decode_test/decode_out1/temp_code[397]"/>
+        <net name="decode_test/decode_out1/temp_code[396]"/>
+        <net name="decode_test/decode_out1/temp_code[395]"/>
+        <net name="decode_test/decode_out1/temp_code[394]"/>
+        <net name="decode_test/decode_out1/temp_code[393]"/>
+        <net name="decode_test/decode_out1/temp_code[392]"/>
+        <net name="decode_test/decode_out1/temp_code[391]"/>
+        <net name="decode_test/decode_out1/temp_code[390]"/>
+        <net name="decode_test/decode_out1/temp_code[389]"/>
+        <net name="decode_test/decode_out1/temp_code[388]"/>
+        <net name="decode_test/decode_out1/temp_code[387]"/>
+        <net name="decode_test/decode_out1/temp_code[386]"/>
+        <net name="decode_test/decode_out1/temp_code[385]"/>
+        <net name="decode_test/decode_out1/temp_code[384]"/>
+        <net name="decode_test/decode_out1/temp_code[383]"/>
+        <net name="decode_test/decode_out1/temp_code[382]"/>
+        <net name="decode_test/decode_out1/temp_code[381]"/>
+        <net name="decode_test/decode_out1/temp_code[380]"/>
+        <net name="decode_test/decode_out1/temp_code[379]"/>
+        <net name="decode_test/decode_out1/temp_code[378]"/>
+        <net name="decode_test/decode_out1/temp_code[377]"/>
+        <net name="decode_test/decode_out1/temp_code[376]"/>
+        <net name="decode_test/decode_out1/temp_code[375]"/>
+        <net name="decode_test/decode_out1/temp_code[374]"/>
+        <net name="decode_test/decode_out1/temp_code[373]"/>
+        <net name="decode_test/decode_out1/temp_code[372]"/>
+        <net name="decode_test/decode_out1/temp_code[371]"/>
+        <net name="decode_test/decode_out1/temp_code[370]"/>
+        <net name="decode_test/decode_out1/temp_code[369]"/>
+        <net name="decode_test/decode_out1/temp_code[368]"/>
+        <net name="decode_test/decode_out1/temp_code[367]"/>
+        <net name="decode_test/decode_out1/temp_code[366]"/>
+        <net name="decode_test/decode_out1/temp_code[365]"/>
+        <net name="decode_test/decode_out1/temp_code[364]"/>
+        <net name="decode_test/decode_out1/temp_code[363]"/>
+        <net name="decode_test/decode_out1/temp_code[362]"/>
+        <net name="decode_test/decode_out1/temp_code[361]"/>
+        <net name="decode_test/decode_out1/temp_code[360]"/>
+        <net name="decode_test/decode_out1/temp_code[359]"/>
+        <net name="decode_test/decode_out1/temp_code[358]"/>
+        <net name="decode_test/decode_out1/temp_code[357]"/>
+        <net name="decode_test/decode_out1/temp_code[356]"/>
+        <net name="decode_test/decode_out1/temp_code[355]"/>
+        <net name="decode_test/decode_out1/temp_code[354]"/>
+        <net name="decode_test/decode_out1/temp_code[353]"/>
+        <net name="decode_test/decode_out1/temp_code[352]"/>
+        <net name="decode_test/decode_out1/temp_code[351]"/>
+        <net name="decode_test/decode_out1/temp_code[350]"/>
+        <net name="decode_test/decode_out1/temp_code[349]"/>
+        <net name="decode_test/decode_out1/temp_code[348]"/>
+        <net name="decode_test/decode_out1/temp_code[347]"/>
+        <net name="decode_test/decode_out1/temp_code[346]"/>
+        <net name="decode_test/decode_out1/temp_code[345]"/>
+        <net name="decode_test/decode_out1/temp_code[344]"/>
+        <net name="decode_test/decode_out1/temp_code[343]"/>
+        <net name="decode_test/decode_out1/temp_code[342]"/>
+        <net name="decode_test/decode_out1/temp_code[341]"/>
+        <net name="decode_test/decode_out1/temp_code[340]"/>
+        <net name="decode_test/decode_out1/temp_code[339]"/>
+        <net name="decode_test/decode_out1/temp_code[338]"/>
+        <net name="decode_test/decode_out1/temp_code[337]"/>
+        <net name="decode_test/decode_out1/temp_code[336]"/>
+        <net name="decode_test/decode_out1/temp_code[335]"/>
+        <net name="decode_test/decode_out1/temp_code[334]"/>
+        <net name="decode_test/decode_out1/temp_code[333]"/>
+        <net name="decode_test/decode_out1/temp_code[332]"/>
+        <net name="decode_test/decode_out1/temp_code[331]"/>
+        <net name="decode_test/decode_out1/temp_code[330]"/>
+        <net name="decode_test/decode_out1/temp_code[329]"/>
+        <net name="decode_test/decode_out1/temp_code[328]"/>
+        <net name="decode_test/decode_out1/temp_code[327]"/>
+        <net name="decode_test/decode_out1/temp_code[326]"/>
+        <net name="decode_test/decode_out1/temp_code[325]"/>
+        <net name="decode_test/decode_out1/temp_code[324]"/>
+        <net name="decode_test/decode_out1/temp_code[323]"/>
+        <net name="decode_test/decode_out1/temp_code[322]"/>
+        <net name="decode_test/decode_out1/temp_code[321]"/>
+        <net name="decode_test/decode_out1/temp_code[320]"/>
+        <net name="decode_test/decode_out1/temp_code[319]"/>
+        <net name="decode_test/decode_out1/temp_code[318]"/>
+        <net name="decode_test/decode_out1/temp_code[317]"/>
+        <net name="decode_test/decode_out1/temp_code[316]"/>
+        <net name="decode_test/decode_out1/temp_code[315]"/>
+        <net name="decode_test/decode_out1/temp_code[314]"/>
+        <net name="decode_test/decode_out1/temp_code[313]"/>
+        <net name="decode_test/decode_out1/temp_code[312]"/>
+        <net name="decode_test/decode_out1/temp_code[311]"/>
+        <net name="decode_test/decode_out1/temp_code[310]"/>
+        <net name="decode_test/decode_out1/temp_code[309]"/>
+        <net name="decode_test/decode_out1/temp_code[308]"/>
+        <net name="decode_test/decode_out1/temp_code[307]"/>
+        <net name="decode_test/decode_out1/temp_code[306]"/>
+        <net name="decode_test/decode_out1/temp_code[305]"/>
+        <net name="decode_test/decode_out1/temp_code[304]"/>
+        <net name="decode_test/decode_out1/temp_code[303]"/>
+        <net name="decode_test/decode_out1/temp_code[302]"/>
+        <net name="decode_test/decode_out1/temp_code[301]"/>
+        <net name="decode_test/decode_out1/temp_code[300]"/>
+        <net name="decode_test/decode_out1/temp_code[299]"/>
+        <net name="decode_test/decode_out1/temp_code[298]"/>
+        <net name="decode_test/decode_out1/temp_code[297]"/>
+        <net name="decode_test/decode_out1/temp_code[296]"/>
+        <net name="decode_test/decode_out1/temp_code[295]"/>
+        <net name="decode_test/decode_out1/temp_code[294]"/>
+        <net name="decode_test/decode_out1/temp_code[293]"/>
+        <net name="decode_test/decode_out1/temp_code[292]"/>
+        <net name="decode_test/decode_out1/temp_code[291]"/>
+        <net name="decode_test/decode_out1/temp_code[290]"/>
+        <net name="decode_test/decode_out1/temp_code[289]"/>
+        <net name="decode_test/decode_out1/temp_code[288]"/>
+        <net name="decode_test/decode_out1/temp_code[287]"/>
+        <net name="decode_test/decode_out1/temp_code[286]"/>
+        <net name="decode_test/decode_out1/temp_code[285]"/>
+        <net name="decode_test/decode_out1/temp_code[284]"/>
+        <net name="decode_test/decode_out1/temp_code[283]"/>
+        <net name="decode_test/decode_out1/temp_code[282]"/>
+        <net name="decode_test/decode_out1/temp_code[281]"/>
+        <net name="decode_test/decode_out1/temp_code[280]"/>
+        <net name="decode_test/decode_out1/temp_code[279]"/>
+        <net name="decode_test/decode_out1/temp_code[278]"/>
+        <net name="decode_test/decode_out1/temp_code[277]"/>
+        <net name="decode_test/decode_out1/temp_code[276]"/>
+        <net name="decode_test/decode_out1/temp_code[275]"/>
+        <net name="decode_test/decode_out1/temp_code[274]"/>
+        <net name="decode_test/decode_out1/temp_code[273]"/>
+        <net name="decode_test/decode_out1/temp_code[272]"/>
+        <net name="decode_test/decode_out1/temp_code[271]"/>
+        <net name="decode_test/decode_out1/temp_code[270]"/>
+        <net name="decode_test/decode_out1/temp_code[269]"/>
+        <net name="decode_test/decode_out1/temp_code[268]"/>
+        <net name="decode_test/decode_out1/temp_code[267]"/>
+        <net name="decode_test/decode_out1/temp_code[266]"/>
+        <net name="decode_test/decode_out1/temp_code[265]"/>
+        <net name="decode_test/decode_out1/temp_code[264]"/>
+        <net name="decode_test/decode_out1/temp_code[263]"/>
+        <net name="decode_test/decode_out1/temp_code[262]"/>
+        <net name="decode_test/decode_out1/temp_code[261]"/>
+        <net name="decode_test/decode_out1/temp_code[260]"/>
+        <net name="decode_test/decode_out1/temp_code[259]"/>
+        <net name="decode_test/decode_out1/temp_code[258]"/>
+        <net name="decode_test/decode_out1/temp_code[257]"/>
+        <net name="decode_test/decode_out1/temp_code[256]"/>
+        <net name="decode_test/decode_out1/temp_code[255]"/>
+        <net name="decode_test/decode_out1/temp_code[254]"/>
+        <net name="decode_test/decode_out1/temp_code[253]"/>
+        <net name="decode_test/decode_out1/temp_code[252]"/>
+        <net name="decode_test/decode_out1/temp_code[251]"/>
+        <net name="decode_test/decode_out1/temp_code[250]"/>
+        <net name="decode_test/decode_out1/temp_code[249]"/>
+        <net name="decode_test/decode_out1/temp_code[248]"/>
+        <net name="decode_test/decode_out1/temp_code[247]"/>
+        <net name="decode_test/decode_out1/temp_code[246]"/>
+        <net name="decode_test/decode_out1/temp_code[245]"/>
+        <net name="decode_test/decode_out1/temp_code[244]"/>
+        <net name="decode_test/decode_out1/temp_code[243]"/>
+        <net name="decode_test/decode_out1/temp_code[242]"/>
+        <net name="decode_test/decode_out1/temp_code[241]"/>
+        <net name="decode_test/decode_out1/temp_code[240]"/>
+        <net name="decode_test/decode_out1/temp_code[239]"/>
+        <net name="decode_test/decode_out1/temp_code[238]"/>
+        <net name="decode_test/decode_out1/temp_code[237]"/>
+        <net name="decode_test/decode_out1/temp_code[236]"/>
+        <net name="decode_test/decode_out1/temp_code[235]"/>
+        <net name="decode_test/decode_out1/temp_code[234]"/>
+        <net name="decode_test/decode_out1/temp_code[233]"/>
+        <net name="decode_test/decode_out1/temp_code[232]"/>
+        <net name="decode_test/decode_out1/temp_code[231]"/>
+        <net name="decode_test/decode_out1/temp_code[230]"/>
+        <net name="decode_test/decode_out1/temp_code[229]"/>
+        <net name="decode_test/decode_out1/temp_code[228]"/>
+        <net name="decode_test/decode_out1/temp_code[227]"/>
+        <net name="decode_test/decode_out1/temp_code[226]"/>
+        <net name="decode_test/decode_out1/temp_code[225]"/>
+        <net name="decode_test/decode_out1/temp_code[224]"/>
+        <net name="decode_test/decode_out1/temp_code[223]"/>
+        <net name="decode_test/decode_out1/temp_code[222]"/>
+        <net name="decode_test/decode_out1/temp_code[221]"/>
+        <net name="decode_test/decode_out1/temp_code[220]"/>
+        <net name="decode_test/decode_out1/temp_code[219]"/>
+        <net name="decode_test/decode_out1/temp_code[218]"/>
+        <net name="decode_test/decode_out1/temp_code[217]"/>
+        <net name="decode_test/decode_out1/temp_code[216]"/>
+        <net name="decode_test/decode_out1/temp_code[215]"/>
+        <net name="decode_test/decode_out1/temp_code[214]"/>
+        <net name="decode_test/decode_out1/temp_code[213]"/>
+        <net name="decode_test/decode_out1/temp_code[212]"/>
+        <net name="decode_test/decode_out1/temp_code[211]"/>
+        <net name="decode_test/decode_out1/temp_code[210]"/>
+        <net name="decode_test/decode_out1/temp_code[209]"/>
+        <net name="decode_test/decode_out1/temp_code[208]"/>
+        <net name="decode_test/decode_out1/temp_code[207]"/>
+        <net name="decode_test/decode_out1/temp_code[206]"/>
+        <net name="decode_test/decode_out1/temp_code[205]"/>
+        <net name="decode_test/decode_out1/temp_code[204]"/>
+        <net name="decode_test/decode_out1/temp_code[203]"/>
+        <net name="decode_test/decode_out1/temp_code[202]"/>
+        <net name="decode_test/decode_out1/temp_code[201]"/>
+        <net name="decode_test/decode_out1/temp_code[200]"/>
+        <net name="decode_test/decode_out1/temp_code[199]"/>
+        <net name="decode_test/decode_out1/temp_code[198]"/>
+        <net name="decode_test/decode_out1/temp_code[197]"/>
+        <net name="decode_test/decode_out1/temp_code[196]"/>
+        <net name="decode_test/decode_out1/temp_code[195]"/>
+        <net name="decode_test/decode_out1/temp_code[194]"/>
+        <net name="decode_test/decode_out1/temp_code[193]"/>
+        <net name="decode_test/decode_out1/temp_code[192]"/>
+        <net name="decode_test/decode_out1/temp_code[191]"/>
+        <net name="decode_test/decode_out1/temp_code[190]"/>
+        <net name="decode_test/decode_out1/temp_code[189]"/>
+        <net name="decode_test/decode_out1/temp_code[188]"/>
+        <net name="decode_test/decode_out1/temp_code[187]"/>
+        <net name="decode_test/decode_out1/temp_code[186]"/>
+        <net name="decode_test/decode_out1/temp_code[185]"/>
+        <net name="decode_test/decode_out1/temp_code[184]"/>
+        <net name="decode_test/decode_out1/temp_code[183]"/>
+        <net name="decode_test/decode_out1/temp_code[182]"/>
+        <net name="decode_test/decode_out1/temp_code[181]"/>
+        <net name="decode_test/decode_out1/temp_code[180]"/>
+        <net name="decode_test/decode_out1/temp_code[179]"/>
+        <net name="decode_test/decode_out1/temp_code[178]"/>
+        <net name="decode_test/decode_out1/temp_code[177]"/>
+        <net name="decode_test/decode_out1/temp_code[176]"/>
+        <net name="decode_test/decode_out1/temp_code[175]"/>
+        <net name="decode_test/decode_out1/temp_code[174]"/>
+        <net name="decode_test/decode_out1/temp_code[173]"/>
+        <net name="decode_test/decode_out1/temp_code[172]"/>
+        <net name="decode_test/decode_out1/temp_code[171]"/>
+        <net name="decode_test/decode_out1/temp_code[170]"/>
+        <net name="decode_test/decode_out1/temp_code[169]"/>
+        <net name="decode_test/decode_out1/temp_code[168]"/>
+        <net name="decode_test/decode_out1/temp_code[167]"/>
+        <net name="decode_test/decode_out1/temp_code[166]"/>
+        <net name="decode_test/decode_out1/temp_code[165]"/>
+        <net name="decode_test/decode_out1/temp_code[164]"/>
+        <net name="decode_test/decode_out1/temp_code[163]"/>
+        <net name="decode_test/decode_out1/temp_code[162]"/>
+        <net name="decode_test/decode_out1/temp_code[161]"/>
+        <net name="decode_test/decode_out1/temp_code[160]"/>
+        <net name="decode_test/decode_out1/temp_code[159]"/>
+        <net name="decode_test/decode_out1/temp_code[158]"/>
+        <net name="decode_test/decode_out1/temp_code[157]"/>
+        <net name="decode_test/decode_out1/temp_code[156]"/>
+        <net name="decode_test/decode_out1/temp_code[155]"/>
+        <net name="decode_test/decode_out1/temp_code[154]"/>
+        <net name="decode_test/decode_out1/temp_code[153]"/>
+        <net name="decode_test/decode_out1/temp_code[152]"/>
+        <net name="decode_test/decode_out1/temp_code[151]"/>
+        <net name="decode_test/decode_out1/temp_code[150]"/>
+        <net name="decode_test/decode_out1/temp_code[149]"/>
+        <net name="decode_test/decode_out1/temp_code[148]"/>
+        <net name="decode_test/decode_out1/temp_code[147]"/>
+        <net name="decode_test/decode_out1/temp_code[146]"/>
+        <net name="decode_test/decode_out1/temp_code[145]"/>
+        <net name="decode_test/decode_out1/temp_code[144]"/>
+        <net name="decode_test/decode_out1/temp_code[143]"/>
+        <net name="decode_test/decode_out1/temp_code[142]"/>
+        <net name="decode_test/decode_out1/temp_code[141]"/>
+        <net name="decode_test/decode_out1/temp_code[140]"/>
+        <net name="decode_test/decode_out1/temp_code[139]"/>
+        <net name="decode_test/decode_out1/temp_code[138]"/>
+        <net name="decode_test/decode_out1/temp_code[137]"/>
+        <net name="decode_test/decode_out1/temp_code[136]"/>
+        <net name="decode_test/decode_out1/temp_code[135]"/>
+        <net name="decode_test/decode_out1/temp_code[134]"/>
+        <net name="decode_test/decode_out1/temp_code[133]"/>
+        <net name="decode_test/decode_out1/temp_code[132]"/>
+        <net name="decode_test/decode_out1/temp_code[131]"/>
+        <net name="decode_test/decode_out1/temp_code[130]"/>
+        <net name="decode_test/decode_out1/temp_code[129]"/>
+        <net name="decode_test/decode_out1/temp_code[128]"/>
+        <net name="decode_test/decode_out1/temp_code[127]"/>
+        <net name="decode_test/decode_out1/temp_code[126]"/>
+        <net name="decode_test/decode_out1/temp_code[125]"/>
+        <net name="decode_test/decode_out1/temp_code[124]"/>
+        <net name="decode_test/decode_out1/temp_code[123]"/>
+        <net name="decode_test/decode_out1/temp_code[122]"/>
+        <net name="decode_test/decode_out1/temp_code[121]"/>
+        <net name="decode_test/decode_out1/temp_code[120]"/>
+        <net name="decode_test/decode_out1/temp_code[119]"/>
+        <net name="decode_test/decode_out1/temp_code[118]"/>
+        <net name="decode_test/decode_out1/temp_code[117]"/>
+        <net name="decode_test/decode_out1/temp_code[116]"/>
+        <net name="decode_test/decode_out1/temp_code[115]"/>
+        <net name="decode_test/decode_out1/temp_code[114]"/>
+        <net name="decode_test/decode_out1/temp_code[113]"/>
+        <net name="decode_test/decode_out1/temp_code[112]"/>
+        <net name="decode_test/decode_out1/temp_code[111]"/>
+        <net name="decode_test/decode_out1/temp_code[110]"/>
+        <net name="decode_test/decode_out1/temp_code[109]"/>
+        <net name="decode_test/decode_out1/temp_code[108]"/>
+        <net name="decode_test/decode_out1/temp_code[107]"/>
+        <net name="decode_test/decode_out1/temp_code[106]"/>
+        <net name="decode_test/decode_out1/temp_code[105]"/>
+        <net name="decode_test/decode_out1/temp_code[104]"/>
+        <net name="decode_test/decode_out1/temp_code[103]"/>
+        <net name="decode_test/decode_out1/temp_code[102]"/>
+        <net name="decode_test/decode_out1/temp_code[101]"/>
+        <net name="decode_test/decode_out1/temp_code[100]"/>
+        <net name="decode_test/decode_out1/temp_code[99]"/>
+        <net name="decode_test/decode_out1/temp_code[98]"/>
+        <net name="decode_test/decode_out1/temp_code[97]"/>
+        <net name="decode_test/decode_out1/temp_code[96]"/>
+        <net name="decode_test/decode_out1/temp_code[95]"/>
+        <net name="decode_test/decode_out1/temp_code[94]"/>
+        <net name="decode_test/decode_out1/temp_code[93]"/>
+        <net name="decode_test/decode_out1/temp_code[92]"/>
+        <net name="decode_test/decode_out1/temp_code[91]"/>
+        <net name="decode_test/decode_out1/temp_code[90]"/>
+        <net name="decode_test/decode_out1/temp_code[89]"/>
+        <net name="decode_test/decode_out1/temp_code[88]"/>
+        <net name="decode_test/decode_out1/temp_code[87]"/>
+        <net name="decode_test/decode_out1/temp_code[86]"/>
+        <net name="decode_test/decode_out1/temp_code[85]"/>
+        <net name="decode_test/decode_out1/temp_code[84]"/>
+        <net name="decode_test/decode_out1/temp_code[83]"/>
+        <net name="decode_test/decode_out1/temp_code[82]"/>
+        <net name="decode_test/decode_out1/temp_code[81]"/>
+        <net name="decode_test/decode_out1/temp_code[80]"/>
+        <net name="decode_test/decode_out1/temp_code[79]"/>
+        <net name="decode_test/decode_out1/temp_code[78]"/>
+        <net name="decode_test/decode_out1/temp_code[77]"/>
+        <net name="decode_test/decode_out1/temp_code[76]"/>
+        <net name="decode_test/decode_out1/temp_code[75]"/>
+        <net name="decode_test/decode_out1/temp_code[74]"/>
+        <net name="decode_test/decode_out1/temp_code[73]"/>
+        <net name="decode_test/decode_out1/temp_code[72]"/>
+        <net name="decode_test/decode_out1/temp_code[71]"/>
+        <net name="decode_test/decode_out1/temp_code[70]"/>
+        <net name="decode_test/decode_out1/temp_code[69]"/>
+        <net name="decode_test/decode_out1/temp_code[68]"/>
+        <net name="decode_test/decode_out1/temp_code[67]"/>
+        <net name="decode_test/decode_out1/temp_code[66]"/>
+        <net name="decode_test/decode_out1/temp_code[65]"/>
+        <net name="decode_test/decode_out1/temp_code[64]"/>
+        <net name="decode_test/decode_out1/temp_code[63]"/>
+        <net name="decode_test/decode_out1/temp_code[62]"/>
+        <net name="decode_test/decode_out1/temp_code[61]"/>
+        <net name="decode_test/decode_out1/temp_code[60]"/>
+        <net name="decode_test/decode_out1/temp_code[59]"/>
+        <net name="decode_test/decode_out1/temp_code[58]"/>
+        <net name="decode_test/decode_out1/temp_code[57]"/>
+        <net name="decode_test/decode_out1/temp_code[56]"/>
+        <net name="decode_test/decode_out1/temp_code[55]"/>
+        <net name="decode_test/decode_out1/temp_code[54]"/>
+        <net name="decode_test/decode_out1/temp_code[53]"/>
+        <net name="decode_test/decode_out1/temp_code[52]"/>
+        <net name="decode_test/decode_out1/temp_code[51]"/>
+        <net name="decode_test/decode_out1/temp_code[50]"/>
+        <net name="decode_test/decode_out1/temp_code[49]"/>
+        <net name="decode_test/decode_out1/temp_code[48]"/>
+        <net name="decode_test/decode_out1/temp_code[47]"/>
+        <net name="decode_test/decode_out1/temp_code[46]"/>
+        <net name="decode_test/decode_out1/temp_code[45]"/>
+        <net name="decode_test/decode_out1/temp_code[44]"/>
+        <net name="decode_test/decode_out1/temp_code[43]"/>
+        <net name="decode_test/decode_out1/temp_code[42]"/>
+        <net name="decode_test/decode_out1/temp_code[41]"/>
+        <net name="decode_test/decode_out1/temp_code[40]"/>
+        <net name="decode_test/decode_out1/temp_code[39]"/>
+        <net name="decode_test/decode_out1/temp_code[38]"/>
+        <net name="decode_test/decode_out1/temp_code[37]"/>
+        <net name="decode_test/decode_out1/temp_code[36]"/>
+        <net name="decode_test/decode_out1/temp_code[35]"/>
+        <net name="decode_test/decode_out1/temp_code[34]"/>
+        <net name="decode_test/decode_out1/temp_code[33]"/>
+        <net name="decode_test/decode_out1/temp_code[32]"/>
+        <net name="decode_test/decode_out1/temp_code[31]"/>
+        <net name="decode_test/decode_out1/temp_code[30]"/>
+        <net name="decode_test/decode_out1/temp_code[29]"/>
+        <net name="decode_test/decode_out1/temp_code[28]"/>
+        <net name="decode_test/decode_out1/temp_code[27]"/>
+        <net name="decode_test/decode_out1/temp_code[26]"/>
+        <net name="decode_test/decode_out1/temp_code[25]"/>
+        <net name="decode_test/decode_out1/temp_code[24]"/>
+        <net name="decode_test/decode_out1/temp_code[23]"/>
+        <net name="decode_test/decode_out1/temp_code[22]"/>
+        <net name="decode_test/decode_out1/temp_code[21]"/>
+        <net name="decode_test/decode_out1/temp_code[20]"/>
+        <net name="decode_test/decode_out1/temp_code[19]"/>
+        <net name="decode_test/decode_out1/temp_code[18]"/>
+        <net name="decode_test/decode_out1/temp_code[17]"/>
+        <net name="decode_test/decode_out1/temp_code[16]"/>
+        <net name="decode_test/decode_out1/temp_code[15]"/>
+        <net name="decode_test/decode_out1/temp_code[14]"/>
+        <net name="decode_test/decode_out1/temp_code[13]"/>
+        <net name="decode_test/decode_out1/temp_code[12]"/>
+        <net name="decode_test/decode_out1/temp_code[11]"/>
+        <net name="decode_test/decode_out1/temp_code[10]"/>
+        <net name="decode_test/decode_out1/temp_code[9]"/>
+        <net name="decode_test/decode_out1/temp_code[8]"/>
+        <net name="decode_test/decode_out1/temp_code[7]"/>
+        <net name="decode_test/decode_out1/temp_code[6]"/>
+        <net name="decode_test/decode_out1/temp_code[5]"/>
+        <net name="decode_test/decode_out1/temp_code[4]"/>
+        <net name="decode_test/decode_out1/temp_code[3]"/>
+        <net name="decode_test/decode_out1/temp_code[2]"/>
+        <net name="decode_test/decode_out1/temp_code[1]"/>
+        <net name="decode_test/decode_out1/temp_code[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="gt0_rxdata_i[15]"/>
+        <net name="gt0_rxdata_i[14]"/>
+        <net name="gt0_rxdata_i[13]"/>
+        <net name="gt0_rxdata_i[12]"/>
+        <net name="gt0_rxdata_i[11]"/>
+        <net name="gt0_rxdata_i[10]"/>
+        <net name="gt0_rxdata_i[9]"/>
+        <net name="gt0_rxdata_i[8]"/>
+        <net name="gt0_rxdata_i[7]"/>
+        <net name="gt0_rxdata_i[6]"/>
+        <net name="gt0_rxdata_i[5]"/>
+        <net name="gt0_rxdata_i[4]"/>
+        <net name="gt0_rxdata_i[3]"/>
+        <net name="gt0_rxdata_i[2]"/>
+        <net name="gt0_rxdata_i[1]"/>
+        <net name="gt0_rxdata_i[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

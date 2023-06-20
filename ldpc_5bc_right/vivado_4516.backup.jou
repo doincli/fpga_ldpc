@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jun  4 16:42:44 2022
+# Process ID: 4516
+# Current directory: C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7616 C:\Users\doinc\Desktop\decode_final_test\ldpc_5bc_right\test_ldpc.xpr
+# Log file: C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/vivado.log
+# Journal file: C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+save_wave_config {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}

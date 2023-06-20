@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="fifo_ila_synth_1" LaunchDir="C:/Users/Administrator/Desktop/decode/test_ldpc_2gai/test_ldpc.runs/fifo_ila_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

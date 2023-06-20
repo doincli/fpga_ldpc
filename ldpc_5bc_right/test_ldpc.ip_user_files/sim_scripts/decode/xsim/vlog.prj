@@ -1,0 +1,13 @@
+verilog xil_defaultlib  \
+"../../../../test_ldpc.srcs/sources_1/ip/decode/decode/example_design/decode_tx_startup_fsm.v" \
+"../../../../test_ldpc.srcs/sources_1/ip/decode/decode/example_design/decode_rx_startup_fsm.v" \
+"../../../../test_ldpc.srcs/sources_1/ip/decode/decode_init.v" \
+"../../../../test_ldpc.srcs/sources_1/ip/decode/decode_cpll_railing.v" \
+"../../../../test_ldpc.srcs/sources_1/ip/decode/decode_gt.v" \
+"../../../../test_ldpc.srcs/sources_1/ip/decode/decode_multi_gt.v" \
+"../../../../test_ldpc.srcs/sources_1/ip/decode/decode/example_design/decode_sync_block.v" \
+"../../../../test_ldpc.srcs/sources_1/ip/decode/decode.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

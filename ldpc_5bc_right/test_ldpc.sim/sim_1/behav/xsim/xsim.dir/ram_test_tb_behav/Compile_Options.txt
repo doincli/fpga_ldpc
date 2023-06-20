@@ -1,0 +1,1 @@
+-wto "14b4452acabe470991f92450c17114e6" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "fifo_generator_v13_2_1" -L "dist_mem_gen_v8_0_12" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "ram_test_tb_behav" "xil_defaultlib.ram_test_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

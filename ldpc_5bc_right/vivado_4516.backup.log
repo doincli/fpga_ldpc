@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jun  4 16:42:44 2022
+# Process ID: 4516
+# Current directory: C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7616 C:\Users\doinc\Desktop\decode_final_test\ldpc_5bc_right\test_ldpc.xpr
+# Log file: C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/vivado.log
+# Journal file: C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/doinc/Desktop/decode_final_test/test_ldpc_5tongdao' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/fpga/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 943.195 ; gain = 187.793
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210203AE4845A
+set_property PROGRAM.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-1435] Device xc7k325t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.runs/impl_1/decode_exdes.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1531.121 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+INFO: [Labtools 27-2302] Device xc7k325t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Jun-04 16:43:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Jun-04 16:43:40
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Jun-04 16:43:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Jun-04 16:43:52
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Jun-04 16:44:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Jun-04 16:44:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Jun-04 16:44:02
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Jun-04 16:44:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Jun-04 16:44:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Jun-04 16:44:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2022-Jun-04 16:44:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"l1"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2022-Jun-04 16:44:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {C:/Users/doinc/Desktop/decode_final_test/ldpc_5bc_right/test_ldpc.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun  4 16:44:21 2022...

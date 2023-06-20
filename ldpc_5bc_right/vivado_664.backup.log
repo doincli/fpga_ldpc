@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jun  4 00:59:32 2022
+# Process ID: 664
+# Current directory: C:/Users/doinc/Desktop/decode_final_test/test_ldpc_5tongdao
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24212 C:\Users\doinc\Desktop\decode_final_test\test_ldpc_5tongdao\test_ldpc.xpr
+# Log file: C:/Users/doinc/Desktop/decode_final_test/test_ldpc_5tongdao/vivado.log
+# Journal file: C:/Users/doinc/Desktop/decode_final_test/test_ldpc_5tongdao\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/doinc/Desktop/decode_final_test/test_ldpc_5tongdao/test_ldpc.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/fpga/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 930.148 ; gain = 207.004
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun  4 01:00:26 2022...
