@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Feb 17 02:05:59 2022
+# Process ID: 2796
+# Current directory: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.sim/sim_1/synth/timing/xsim/xsim.dir/fifo_control_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.sim/sim_1/synth/timing/xsim/xsim.dir/fifo_control_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Feb 17 02:06:00 2022...

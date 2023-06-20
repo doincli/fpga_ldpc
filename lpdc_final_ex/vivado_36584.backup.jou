@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Apr 24 22:57:51 2022
+# Process ID: 36584
+# Current directory: C:/Users/doinc/Desktop/my_ldpc/lpdc_final_ex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46384 C:\Users\doinc\Desktop\my_ldpc\lpdc_final_ex\lpdc_test_ex.xpr
+# Log file: C:/Users/doinc/Desktop/my_ldpc/lpdc_final_ex/vivado.log
+# Journal file: C:/Users/doinc/Desktop/my_ldpc/lpdc_final_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/doinc/Desktop/my_ldpc/lpdc_final_ex/lpdc_test_ex.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+set_property  ip_repo_paths  {c:/Users/doinc/Desktop/my_ldpc C:/Users/doinc/Desktop/my_ldpc/xgui} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  c:/Users/doinc/Desktop/my_ldpc [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  C:/Users/doinc/Desktop/my_ldpc [current_project]
+update_ip_catalog
+place_ports TRACK_DATA_OUT Y23
+set_property IOSTANDARD LVDS [get_ports [list DRP_CLK_IN_P]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list TRACK_DATA_OUT]]
+set_property target_constrs_file C:/Users/doinc/Desktop/my_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/constrs_1/imports/example_design/lpdc_test_exdes.xdc [current_fileset -constrset]
+save_constraints -force
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

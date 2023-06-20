@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Feb 19 19:48:24 2022" VIVADOVERSION="2017.4">
+
+  <SYSTEMINFO ARCH="kintex7" DEVICE="7k325t" NAME="design_1" PACKAGE="ffg900" SPEEDGRADE="-2"/>
+
+  <EXTERNALPORTS>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_test_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="15" NAME="data_gtx" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_data_gtx">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_test_0" PORT="data_gtx"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="15" NAME="ldpc_out" RIGHT="0" SIGIS="undef" SIGNAME="top_test_0_ldpc_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_test_0" PORT="ldpc_out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="1" NAME="charisk_out" RIGHT="0" SIGIS="undef" SIGNAME="top_test_0_charisk_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_test_0" PORT="charisk_out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_test_0" PORT="rst_n"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/top_test_0" HWVERSION="1.0" INSTANCE="top_test_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="top_test" VLNV="gpnewtech.com:userdefine:top_test:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DATA_W" VALUE="16"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_top_test_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst_n" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="15" NAME="data_gtx" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_data_gtx">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="data_gtx"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="ldpc_out" RIGHT="0" SIGIS="undef" SIGNAME="top_test_0_ldpc_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ldpc_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="charisk_out" RIGHT="0" SIGIS="undef" SIGNAME="top_test_0_charisk_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="charisk_out"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

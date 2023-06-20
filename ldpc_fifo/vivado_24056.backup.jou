@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Mar  2 20:03:21 2022
+# Process ID: 24056
+# Current directory: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33140 C:\Users\doinc\Desktop\my_ldpc\ldpc_fifo\ldpc_fifo.xpr
+# Log file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/vivado.log
+# Journal file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/doinc/desktop/my_ldpc -vendor gpnewtech.com -library userdefine -taxonomy /userdefine_lib -force
+ipx::add_bus_interface clk [ipx::current_core]
+set_property abstraction_type_vlnv xilinx.com:interface:aximm_rtl:1.0 [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property bus_type_vlnv xilinx.com:interface:aximm:1.0 [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property interface_mode master [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]

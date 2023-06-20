@@ -1,0 +1,64 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/sim/H1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H2/sim/H2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/h3/sim/h3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module h3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H4/sim/H4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module H4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ipshared/ddb6/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/Desktop/encode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module encode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ipshared/ddb6/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/new/fifo_control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ipshared/ddb6/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/code/ldpc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ldpc_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ipshared/ddb6/ldpc_fifo/ldpc_fifo.srcs/sources_1/new/top_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/sim/design_1_top_test_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_top_test_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.srcs/sources_1/ip/lpdc_test/lpdc_test_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpdc_test
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_GT
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_RX_STARTUP_FSM
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_TX_STARTUP_FSM
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_cpll_railing
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_init
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_multi_gt
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_0
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_1
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_10
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_11
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_2
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_3
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_4
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_5
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_6
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_7
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_8
+INFO: [VRFC 10-311] analyzing module lpdc_test_lpdc_test_sync_block_9
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpdc_test_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpdc_test_common_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_exdes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpdc_test_exdes
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_gt_frame_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpdc_test_GT_FRAME_GEN
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_gt_usrclk_source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpdc_test_GT_USRCLK_SOURCE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_support.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpdc_test_support
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/doinc/Desktop/my_ldpc/lpdc_test_ex/lpdc_test_ex.srcs/sim_1/imports/simulation/lpdc_test_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lpdc_test_TB

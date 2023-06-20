@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Feb 18 21:28:30 2022
+# Process ID: 12592
+# Current directory: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.runs/h3_synth_1
+# Command line: vivado.exe -log h3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source h3.tcl
+# Log file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.runs/h3_synth_1/h3.vds
+# Journal file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.runs/h3_synth_1\vivado.jou
+#-----------------------------------------------------------
+source h3.tcl -notrace

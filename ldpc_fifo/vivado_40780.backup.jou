@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Oct 21 10:03:13 2022
+# Process ID: 40780
+# Current directory: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31776 C:\Users\doinc\Desktop\my_ldpc\ldpc_fifo\ldpc_fifo.xpr
+# Log file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/vivado.log
+# Journal file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.xpr
+update_compile_order -fileset sources_1

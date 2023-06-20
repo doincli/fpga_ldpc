@@ -1,0 +1,33 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module top_tb.uut.design_1_i.top_test_0.inst.u2.h1.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module top_tb.uut.design_1_i.top_test_0.inst.u2.h2.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module top_tb.uut.design_1_i.top_test_0.inst.u2.h3.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module top_tb.uut.design_1_i.top_test_0.inst.u2.h4.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ng a behavioral model for simulation which will not precisely model memory collision behavior.
+Timing checks are not valid
+Timing checks are valid
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module lpdc_test_TB.lpdc_test_exdes_i.uut.design_1_i.top_test_0.inst.u2.h1.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module lpdc_test_TB.lpdc_test_exdes_i.uut.design_1_i.top_test_0.inst.u2.h2.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module lpdc_test_TB.lpdc_test_exdes_i.uut.design_1_i.top_test_0.inst.u2.h3.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module lpdc_test_TB.lpdc_test_exdes_i.uut.design_1_i.top_test_0.inst.u2.h4.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Timing checks are not valid
+Timing checks are valid

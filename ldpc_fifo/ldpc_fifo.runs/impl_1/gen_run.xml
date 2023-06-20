@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1645612997">
+  <File Type="PA-TCL" Name="encode.tcl"/>
+  <File Type="PWROPT-DCP" Name="encode_pwropt.dcp"/>
+  <File Type="REPORTS-TCL" Name="encode_reports.tcl"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="encode_postplace_pwropt.dcp"/>
+  <File Type="BG-DRC" Name="encode.drc"/>
+  <File Type="OPT-HWDEF" Name="encode.hwdef"/>
+  <File Type="OPT-DCP" Name="encode_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="encode_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="encode_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="encode_physopt.dcp"/>
+  <File Type="BG-BIT" Name="encode.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="encode_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="encode_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="encode_routed_bb.dcp"/>
+  <File Type="BITSTR-MSK" Name="encode.msk"/>
+  <File Type="BG-BGN" Name="encode.bgn"/>
+  <File Type="BITSTR-RBT" Name="encode.rbt"/>
+  <File Type="BG-BIN" Name="encode.bin"/>
+  <File Type="ROUTE-TIMING-PB" Name="encode_timing_summary_routed.pb"/>
+  <File Type="RDI-RDI" Name="encode.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="encode_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="encode_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="encode.nky"/>
+  <File Type="BITSTR-BMM" Name="encode_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="encode.mmi"/>
+  <File Type="BITSTR-LTX" Name="encode.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="encode.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/encode.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../encode.v"/>
+        <Attr Name="ImportTime" Val="1645090667"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/code/ldpc.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../my_code/code/ldpc.v"/>
+        <Attr Name="ImportTime" Val="1645179760"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/fifo_generator_0/fifo_generator_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/fifo_control.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/fifo_control.v"/>
+        <Attr Name="ImportTime" Val="1645210503"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_test.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/my_ldpc/fifo_contral.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fifo_contral.v"/>
+        <Attr Name="ImportTime" Val="1645028507"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../my_code/coe/rom1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../my_code/coe/rom2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../my_code/coe/rom3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../my_code/coe/rom4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../users/doinc/desktop/my_ldpc/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="encode"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

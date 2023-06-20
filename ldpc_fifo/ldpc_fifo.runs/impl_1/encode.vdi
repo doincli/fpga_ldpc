@@ -1,0 +1,253 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Feb 23 18:44:01 2022
+# Process ID: 102616
+# Current directory: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.runs/impl_1
+# Command line: vivado.exe -log encode.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source encode.tcl -notrace
+# Log file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.runs/impl_1/encode.vdi
+# Journal file: C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source encode.tcl -notrace
+Command: link_design -top encode -part xc7k325tffg900-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 1048 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'encode' is not ideal for floorplanning, since the cellview 'encode' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 647.148 ; gain = 365.047
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.557 . Memory (MB): peak = 663.727 ; gain = 16.129
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 43b2de30
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.092 . Memory (MB): peak = 1267.031 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 43b2de30
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1267.031 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 43b2de30
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.135 . Memory (MB): peak = 1267.031 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 43b2de30
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.172 . Memory (MB): peak = 1267.031 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 43b2de30
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.182 . Memory (MB): peak = 1267.031 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1267.031 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 43b2de30
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.194 . Memory (MB): peak = 1267.031 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 43b2de30
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1267.031 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1267.031 ; gain = 619.883
+INFO: [Common 17-1381] The checkpoint 'C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.runs/impl_1/encode_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file encode_drc_opted.rpt -pb encode_drc_opted.pb -rpx encode_drc_opted.rpx
+Command: report_drc -file encode_drc_opted.rpt -pb encode_drc_opted.pb -rpx encode_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/doinc/desktop/my_ldpc'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/fpga/Vivado/2017.4/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/doinc/Desktop/my_ldpc/ldpc_fifo/ldpc_fifo.runs/impl_1/encode_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1267.031 ; gain = 0.000
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7k325t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1267.031 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 14a56aaa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1267.031 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1267.031 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-415] IO Placement failed due to overutilization. This design contains 1112 I/O ports
+ while the target  device: 7k325t package: ffg900, contains only 500 available user I/O. The target device has 500 usable I/O pins of which 0 are already occupied by user-locked I/Os.
+ To rectify this issue:
+ 1. Ensure you are targeting the correct device and package.  Select a larger device or different package if necessary.
+ 2. Check the top-level ports of the design to ensure the correct number of ports are specified.
+ 3. Consider design changes to reduce the number of I/Os necessary.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-68] Instance H_data_IBUF[0]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1000]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1001]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1002]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1003]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1004]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1005]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1006]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1007]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1008]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1009]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[100]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1010]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1011]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1012]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1013]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1014]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1015]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1016]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1017]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1018]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1019]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[101]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1020]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1021]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1022]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[1023]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[102]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[103]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[104]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[105]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[106]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[107]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[108]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[109]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[10]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[110]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[111]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[112]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[113]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[114]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[115]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[116]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[117]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[118]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[119]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[11]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[120]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[121]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[122]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[123]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[124]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[125]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[126]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[127]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[128]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[129]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[12]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[130]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[131]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[132]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[133]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[134]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[135]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[136]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[137]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[138]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[139]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[13]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[140]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[141]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[142]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[143]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[144]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[145]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[146]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[147]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[148]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[149]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[14]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[150]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[151]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[152]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[153]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[154]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[155]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[156]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[157]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[158]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[159]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[15]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[160]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[161]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[162]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[163]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[164]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[165]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[166]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[167]_inst (IBUF) is not placed
+ERROR: [Place 30-68] Instance H_data_IBUF[168]_inst (IBUF) is not placed
+INFO: [Common 17-14] Message 'Place 30-68' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: afaf60b9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1267.031 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: afaf60b9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1267.031 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: afaf60b9
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1267.031 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 1 Warnings, 0 Critical Warnings and 103 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 23 18:44:52 2022...

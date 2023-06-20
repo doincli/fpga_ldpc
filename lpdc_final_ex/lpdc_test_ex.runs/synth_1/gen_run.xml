@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1650812536">
+  <File Type="PA-TCL" Name="lpdc_test_exdes.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="lpdc_test_exdes_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="lpdc_test_exdes_reports.tcl"/>
+  <File Type="RDS-RDS" Name="lpdc_test_exdes.vds"/>
+  <File Type="RDS-UTIL" Name="lpdc_test_exdes_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="lpdc_test_exdes_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="lpdc_test_exdes.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="lpdc_test_exdes_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="lpdc_test_exdes_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/ldpc/ldpc.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/lpdc_test/lpdc_test.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test.xci"/>
+        <Attr Name="ImportTime" Val="1645268582"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ldpc/hdl/ldpc_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/support/lpdc_test_common.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test/example_design/support/lpdc_test_common.v"/>
+        <Attr Name="ImportTime" Val="1645268689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/support/lpdc_test_common_reset.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test/example_design/support/lpdc_test_common_reset.v"/>
+        <Attr Name="ImportTime" Val="1645268689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/lpdc_test_gt_frame_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test/example_design/lpdc_test_gt_frame_gen.v"/>
+        <Attr Name="ImportTime" Val="1645268691"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/support/lpdc_test_gt_usrclk_source.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test/example_design/support/lpdc_test_gt_usrclk_source.v"/>
+        <Attr Name="ImportTime" Val="1645268689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/support/lpdc_test_support.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test/example_design/support/lpdc_test_support.v"/>
+        <Attr Name="ImportTime" Val="1645268689"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/lpdc_test_exdes.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test/example_design/lpdc_test_exdes.v"/>
+        <Attr Name="ImportTime" Val="1645268690"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/gt_rom_init_rx.dat">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test/example_design/gt_rom_init_rx.dat"/>
+        <Attr Name="ImportTime" Val="1645268691"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/example_design/gt_rom_init_tx.dat">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test/example_design/gt_rom_init_tx.dat"/>
+        <Attr Name="ImportTime" Val="1645268691"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/ip/design_1_top_test_0_0/my_code/coe/rom1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/ip/design_1_top_test_0_0/my_code/coe/rom2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/ip/design_1_top_test_0_0/my_code/coe/rom3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/ip/design_1_top_test_0_0/my_code/coe/rom4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/top_test_0/my_code/coe/rom1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/top_test_0/my_code/coe/rom2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/top_test_0/my_code/coe/rom3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/top_test_0/my_code/coe/rom4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/my_code/coe/rom1.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/my_code/coe/rom2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/my_code/coe/rom3.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/my_code/coe/rom4.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="lpdc_test_exdes"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/example_design/lpdc_test_exdes.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/lpdc_test/lpdc_test/example_design/lpdc_test_exdes.xdc"/>
+        <Attr Name="ImportTime" Val="1645268690"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/example_design/lpdc_test_exdes.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

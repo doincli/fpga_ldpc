@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../lpdc_test_ex.srcs/sources_1/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/sim/H1.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H2/sim/H2.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/h3/sim/h3.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H4/sim/H4.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ipshared/ddb6/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/Desktop/encode.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ipshared/ddb6/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/new/fifo_control.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ipshared/ddb6/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/code/ldpc.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ipshared/ddb6/ldpc_fifo/ldpc_fifo.srcs/sources_1/new/top_test.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/ip/design_1_top_test_0_0/sim/design_1_top_test_0_0.v" \
+"../../../../lpdc_test_ex.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../lpdc_test_ex.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+"../../../../lpdc_test_ex.srcs/sim_1/imports/Desktop/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

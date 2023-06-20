@@ -1,0 +1,71 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/fpga/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 61357b3e9e6d41d5baa79e4decdad265 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot fifo_control_tb_func_synth xil_defaultlib.fifo_control_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDCE_default
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=18,CLKIN...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.VCC
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_gray
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_gray__1
+Compiling module xil_defaultlib.fifo_generator_0_clk_x_pntrs
+Compiling module unisims_ver.CARRY4
+Compiling module xil_defaultlib.fifo_generator_0_compare_1
+Compiling module xil_defaultlib.fifo_generator_0_compare_2
+Compiling module unisims_ver.FDSE_default
+Compiling module xil_defaultlib.fifo_generator_0_rd_status_flags...
+Compiling module xil_defaultlib.fifo_generator_0_rd_bin_cntr
+Compiling module xil_defaultlib.fifo_generator_0_rd_logic
+Compiling module xil_defaultlib.fifo_generator_0_compare
+Compiling module xil_defaultlib.fifo_generator_0_compare_0
+Compiling module unisims_ver.FDSE(INIT=1'b0)
+Compiling module xil_defaultlib.fifo_generator_0_wr_status_flags...
+Compiling module xil_defaultlib.fifo_generator_0_wr_bin_cntr
+Compiling module xil_defaultlib.fifo_generator_0_wr_logic
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB36E1(READ_WIDTH_A=9,READ_WID...
+Compiling module xil_defaultlib.fifo_generator_0_blk_mem_gen_pri...
+Compiling module xil_defaultlib.fifo_generator_0_blk_mem_gen_pri...
+Compiling module unisims_ver.SRL16E_default
+Compiling module xil_defaultlib.fifo_generator_0_blk_mem_gen_pri...
+Compiling module xil_defaultlib.fifo_generator_0_blk_mem_gen_pri...
+Compiling module xil_defaultlib.fifo_generator_0_blk_mem_gen_gen...
+Compiling module xil_defaultlib.fifo_generator_0_blk_mem_gen_top
+Compiling module xil_defaultlib.fifo_generator_0_blk_mem_gen_v8_...
+Compiling module xil_defaultlib.fifo_generator_0_blk_mem_gen_v8_...
+Compiling module xil_defaultlib.fifo_generator_0_memory
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_single
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_single_...
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_sync_rs...
+Compiling module xil_defaultlib.fifo_generator_0_xpm_cdc_sync_rs...
+Compiling module xil_defaultlib.fifo_generator_0_reset_blk_ramfi...
+Compiling module xil_defaultlib.fifo_generator_0_fifo_generator_...
+Compiling module xil_defaultlib.fifo_generator_0_fifo_generator_...
+Compiling module xil_defaultlib.fifo_generator_0_fifo_generator_...
+Compiling module xil_defaultlib.fifo_generator_0_fifo_generator_...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module xil_defaultlib.fifo_control
+Compiling module xil_defaultlib.fifo_control_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fifo_control_tb_func_synth
