@@ -2,27 +2,514 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Mon Nov 14 00:46:35 2022
-# Process ID: 5760
-# Current directory: C:/Users/doinc/Desktop/其它文件/my_ldpc/lpdc_final_ex
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21128 C:\Users\doinc\Desktop\其它文件\my_ldpc\lpdc_final_ex\lpdc_test_ex.xpr
-# Log file: C:/Users/doinc/Desktop/其它文件/my_ldpc/lpdc_final_ex/vivado.log
-# Journal file: C:/Users/doinc/Desktop/其它文件/my_ldpc/lpdc_final_ex\vivado.jou
+# Start of session at: Mon Nov 13 15:49:01 2023
+# Process ID: 78772
+# Current directory: E:/ldpc/fpga_ldpc/lpdc_final_ex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent67944 E:\ldpc\fpga_ldpc\lpdc_final_ex\lpdc_test_ex.xpr
+# Log file: E:/ldpc/fpga_ldpc/lpdc_final_ex/vivado.log
+# Journal file: E:/ldpc/fpga_ldpc/lpdc_final_ex\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/doinc/Desktop/其它文件/my_ldpc/lpdc_final_ex/lpdc_test_ex.xpr
+open_project E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.xpr
 INFO: [Project 1-313] Project file moved from 'C:/Users/doinc/Desktop/my_ldpc/lpdc_final_ex' since last save.
 Scanning sources...
 Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/ldpc/my_ldpc', nor could it be found using path 'C:/Users/doinc/Desktop/my_ldpc'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/doinc/Desktop/其它文件/my_ldpc'.
-WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/doinc/Desktop/其它文件/my_ldpc' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/doinc/Desktop/其它文件/my_ldpc/lpdc_final_ex'.)
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/fpga/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/ldpc/my_ldpc'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2017.4/data/ip'.
 WARNING: [BD 41-1661] One or more IPs have been locked in the design 'ldpc.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
 List of locked IPs:
 ldpc_ldpc_1_0_0
 
-open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 880.891 ; gain = 145.125
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 934.043 ; gain = 210.543
 update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/xilinx/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'lpdc_test_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/H1.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom1.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/H2.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom2.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/h3.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom3.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/H4.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom4.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/gt_rom_init_rx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/gt_rom_init_tx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom1.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom2.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom3.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom4.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom1.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom2.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom3.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/rom4.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/gt_rom_init_rx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/gt_rom_init_tx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/gt_rom_init_rx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/xsim/gt_rom_init_tx.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property target_simulator ModelSim [current_project]
+launch_simulation -install_path D:/modelsim/win64
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'ModelSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'D:/modelsim/win64/vsim.exe'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'D:/xilinx/Xlib/modelsim.ini' copied to run dir:'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'lpdc_test_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/H1.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom1.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/H2.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom2.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/h3.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom3.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/H4.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom4.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_rx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_tx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom1.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom2.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom3.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom4.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom1.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom2.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom3.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom4.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_rx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_tx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_rx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_tx.dat'
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim'
+Reading D:/modelsim/tcl/vsim/pref.tcl
+
+# 10.5
+
+# do {lpdc_test_TB_compile.do}
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap fifo_generator_v13_2_1 modelsim_lib/msim/fifo_generator_v13_2_1 
+# Modifying D:\xilinx\Xlib\modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying D:\xilinx\Xlib\modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap blk_mem_gen_v8_4_1 modelsim_lib/msim/blk_mem_gen_v8_4_1 
+# Modifying D:\xilinx\Xlib\modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 15:49:58 on Nov 13,2023
+# vlog -64 -incr -work fifo_generator_v13_2_1 "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/simulation/fifo_generator_vlog_beh.v 
+# -- Compiling module fifo_generator_vlog_beh
+# -- Compiling module fifo_generator_v13_2_1_CONV_VER
+# -- Compiling module fifo_generator_v13_2_1_sync_stage
+# -- Compiling module fifo_generator_v13_2_1_bhv_ver_as
+# -- Compiling module fifo_generator_v13_2_1_beh_ver_ll_afifo
+# -- Compiling module fifo_generator_v13_2_1_bhv_ver_ss
+# -- Compiling module fifo_generator_v13_2_1_bhv_ver_preload0
+# -- Compiling module fifo_generator_v13_2_1_axic_reg_slice
+# 
+# Top level modules:
+# 	fifo_generator_vlog_beh
+# End time: 15:49:58 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 15:49:58 on Nov 13,2023
+# vcom -64 -93 -work fifo_generator_v13_2_1 ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/hdl/fifo_generator_v13_2_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 15:49:59 on Nov 13,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 15:49:59 on Nov 13,2023
+# vlog -64 -incr -work fifo_generator_v13_2_1 "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/hdl/fifo_generator_v13_2_rfs.v 
+# 
+# Top level modules:
+# End time: 15:49:59 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 15:49:59 on Nov 13,2023
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v 
+# -- Compiling module fifo_generator_0
+# -- Compiling module clk_wiz_0_clk_wiz
+# -- Compiling module clk_wiz_0
+# 
+# Top level modules:
+# 	fifo_generator_0
+# 	clk_wiz_0
+# End time: 15:50:00 on Nov 13,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 15:50:00 on Nov 13,2023
+# vlog -64 -incr -work blk_mem_gen_v8_4_1 "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/simulation/blk_mem_gen_v8_4.v 
+# -- Compiling module STATE_LOGIC_v8_4
+# -- Compiling module beh_vlog_muxf7_v8_4
+# -- Compiling module beh_vlog_ff_clr_v8_4
+# -- Compiling module beh_vlog_ff_pre_v8_4
+# -- Compiling module beh_vlog_ff_ce_clr_v8_4
+# -- Compiling module write_netlist_v8_4
+# -- Compiling module read_netlist_v8_4
+# -- Compiling module blk_mem_axi_write_wrapper_beh_v8_4
+# -- Compiling module blk_mem_axi_read_wrapper_beh_v8_4
+# -- Compiling module blk_mem_axi_regs_fwd_v8_4
+# -- Compiling module blk_mem_gen_v8_4_1_output_stage
+# -- Compiling module blk_mem_gen_v8_4_1_softecc_output_reg_stage
+# -- Compiling module blk_mem_gen_v8_4_1_mem_module
+# -- Compiling module blk_mem_gen_v8_4_1
+# 
+# Top level modules:
+# 	blk_mem_gen_v8_4_1
+# End time: 15:50:00 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 15:50:00 on Nov 13,2023
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/sim/H1.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H2/sim/H2.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/h3/sim/h3.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H4/sim/H4.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/ila_0/sim/ila_0.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/Desktop/encode.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/new/fifo_control.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/code/ldpc.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/new/top_test.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/sim/ldpc_ldpc_1_0_0.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/sim/ldpc.v ../../../../lpdc_test_ex.srcs/sources_1/ip/lpdc_test/lpdc_test_sim_netlist.v ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/hdl/ldpc_wrapper.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common_reset.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_exdes.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_gt_frame_gen.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_gt_usrclk_source.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_support.v ../../../../lpdc_test_ex.srcs/sim_1/imports/simulation/lpdc_test_tb.v 
+# -- Compiling module H1
+# -- Compiling module H2
+# -- Compiling module h3
+# -- Compiling module H4
+# -- Compiling module ila_0
+# -- Compiling module encode
+# -- Compiling module fifo_control
+# -- Compiling module ldpc_control
+# -- Compiling module top_test
+# -- Compiling module ldpc_ldpc_1_0_0
+# -- Compiling module ldpc
+# -- Compiling module lpdc_test
+# -- Compiling module lpdc_test_lpdc_test_GT
+# -- Compiling module lpdc_test_lpdc_test_RX_STARTUP_FSM
+# -- Compiling module lpdc_test_lpdc_test_TX_STARTUP_FSM
+# -- Compiling module lpdc_test_lpdc_test_cpll_railing
+# -- Compiling module lpdc_test_lpdc_test_init
+# -- Compiling module lpdc_test_lpdc_test_multi_gt
+# -- Compiling module lpdc_test_lpdc_test_sync_block
+# -- Compiling module lpdc_test_lpdc_test_sync_block_0
+# -- Compiling module lpdc_test_lpdc_test_sync_block_1
+# -- Compiling module lpdc_test_lpdc_test_sync_block_10
+# -- Compiling module lpdc_test_lpdc_test_sync_block_11
+# -- Compiling module lpdc_test_lpdc_test_sync_block_2
+# -- Compiling module lpdc_test_lpdc_test_sync_block_3
+# -- Compiling module lpdc_test_lpdc_test_sync_block_4
+# -- Compiling module lpdc_test_lpdc_test_sync_block_5
+# -- Compiling module lpdc_test_lpdc_test_sync_block_6
+# -- Compiling module lpdc_test_lpdc_test_sync_block_7
+# -- Compiling module lpdc_test_lpdc_test_sync_block_8
+# -- Compiling module lpdc_test_lpdc_test_sync_block_9
+# -- Compiling module glbl
+# -- Compiling module ldpc_wrapper
+# -- Compiling module lpdc_test_common
+# -- Compiling module lpdc_test_common_reset
+# -- Compiling module lpdc_test_exdes
+# -- Compiling module lpdc_test_GT_FRAME_GEN
+# -- Compiling module lpdc_test_GT_USRCLK_SOURCE
+# -- Compiling module lpdc_test_support
+# -- Compiling module lpdc_test_TB
+# 
+# Top level modules:
+# 	glbl
+# 	lpdc_test_TB
+# End time: 15:50:00 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 15:50:01 on Nov 13,2023
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 15:50:01 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 999.309 ; gain = 0.000
+INFO: [USF-ModelSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim'
+Program launched (PID=68740)
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 999.309 ; gain = 10.352
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0 -dir e:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/sources_1/ip
+set_property -dict [list CONFIG.C_PROBE1_WIDTH {16} CONFIG.C_PROBE0_WIDTH {16} CONFIG.C_DATA_DEPTH {2048} CONFIG.C_NUM_OF_PROBES {2}] [get_ips ila_0]
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.C_PROBE1_WIDTH {1} CONFIG.C_NUM_OF_PROBES {1}] [get_ips ila_0]
+set_property generate_synth_checkpoint false [get_files  e:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/sources_1/ip/ila_0/ila_0.xci]
+generate_target all [get_files  e:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+export_ip_user_files -of_objects [get_files e:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files e:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/sources_1/ip/ila_0/ila_0.xci] -directory E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.ip_user_files/sim_scripts -ip_user_files_dir E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.ip_user_files -ipstatic_source_dir E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.cache/compile_simlib/modelsim} {questa=E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.cache/compile_simlib/questa} {riviera=E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.cache/compile_simlib/riviera} {activehdl=E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.runs/synth_1
+
+launch_runs impl_1 -jobs 12
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/sources_1/ip/lpdc_test/lpdc_test.xci' is already up-to-date
+[Mon Nov 13 16:00:15 2023] Launched synth_1...
+Run output will be captured here: E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.runs/synth_1/runme.log
+[Mon Nov 13 16:00:15 2023] Launched impl_1...
+Run output will be captured here: E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.runs/impl_1/runme.log
+launch_simulation -install_path D:/modelsim/win64
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'ModelSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'D:/modelsim/win64/vsim.exe'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'D:/xilinx/Xlib/modelsim.ini' copied to run dir:'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'lpdc_test_TB' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/H1.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom1.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/H2.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom2.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/h3.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom3.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/H4.mif'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom4.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_rx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_tx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom1.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom2.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom3.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom4.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom1.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom2.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom3.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/rom4.coe'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_rx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_tx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_rx.dat'
+INFO: [SIM-utils-43] Exported 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim/gt_rom_init_tx.dat'
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim'
+Reading D:/modelsim/tcl/vsim/pref.tcl
+
+# 10.5
+
+# do {lpdc_test_TB_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/fifo_generator_v13_2_1".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/blk_mem_gen_v8_4_1".
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying D:\xilinx\Xlib\modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap fifo_generator_v13_2_1 modelsim_lib/msim/fifo_generator_v13_2_1 
+# Modifying D:\xilinx\Xlib\modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap blk_mem_gen_v8_4_1 modelsim_lib/msim/blk_mem_gen_v8_4_1 
+# Modifying D:\xilinx\Xlib\modelsim.ini
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:01:14 on Nov 13,2023
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.ip_user_files/ip/ila_0/sim/ila_0.v 
+# -- Compiling module ila_0
+# 
+# Top level modules:
+# 	ila_0
+# End time: 16:01:14 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:01:14 on Nov 13,2023
+# vlog -64 -incr -work fifo_generator_v13_2_1 "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/simulation/fifo_generator_vlog_beh.v 
+# -- Skipping module fifo_generator_vlog_beh
+# -- Skipping module fifo_generator_v13_2_1_CONV_VER
+# -- Skipping module fifo_generator_v13_2_1_sync_stage
+# -- Skipping module fifo_generator_v13_2_1_bhv_ver_as
+# -- Skipping module fifo_generator_v13_2_1_beh_ver_ll_afifo
+# -- Skipping module fifo_generator_v13_2_1_bhv_ver_ss
+# -- Skipping module fifo_generator_v13_2_1_bhv_ver_preload0
+# -- Skipping module fifo_generator_v13_2_1_axic_reg_slice
+# 
+# Top level modules:
+# 	fifo_generator_vlog_beh
+# End time: 16:01:14 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:01:14 on Nov 13,2023
+# vcom -64 -93 -work fifo_generator_v13_2_1 ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/hdl/fifo_generator_v13_2_rfs.vhd 
+# -- Loading package STANDARD
+# End time: 16:01:16 on Nov 13,2023, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:01:16 on Nov 13,2023
+# vlog -64 -incr -work fifo_generator_v13_2_1 "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/hdl/fifo_generator_v13_2_rfs.v 
+# 
+# Top level modules:
+# End time: 16:01:16 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:01:16 on Nov 13,2023
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v 
+# -- Skipping module fifo_generator_0
+# -- Skipping module clk_wiz_0_clk_wiz
+# -- Skipping module clk_wiz_0
+# 
+# Top level modules:
+# 	fifo_generator_0
+# 	clk_wiz_0
+# End time: 16:01:16 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:01:16 on Nov 13,2023
+# vlog -64 -incr -work blk_mem_gen_v8_4_1 "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/simulation/blk_mem_gen_v8_4.v 
+# -- Skipping module STATE_LOGIC_v8_4
+# -- Skipping module beh_vlog_muxf7_v8_4
+# -- Skipping module beh_vlog_ff_clr_v8_4
+# -- Skipping module beh_vlog_ff_pre_v8_4
+# -- Skipping module beh_vlog_ff_ce_clr_v8_4
+# -- Skipping module write_netlist_v8_4
+# -- Skipping module read_netlist_v8_4
+# -- Skipping module blk_mem_axi_write_wrapper_beh_v8_4
+# -- Skipping module blk_mem_axi_read_wrapper_beh_v8_4
+# -- Skipping module blk_mem_axi_regs_fwd_v8_4
+# -- Skipping module blk_mem_gen_v8_4_1_output_stage
+# -- Skipping module blk_mem_gen_v8_4_1_softecc_output_reg_stage
+# -- Skipping module blk_mem_gen_v8_4_1_mem_module
+# -- Skipping module blk_mem_gen_v8_4_1
+# 
+# Top level modules:
+# 	blk_mem_gen_v8_4_1
+# End time: 16:01:16 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:01:16 on Nov 13,2023
+# vlog -64 -incr -work xil_defaultlib "+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0" ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/sim/H1.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H2/sim/H2.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/h3/sim/h3.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H4/sim/H4.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/ila_0/sim/ila_0.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/Desktop/encode.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/new/fifo_control.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/code/ldpc.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/new/top_test.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/sim/ldpc_ldpc_1_0_0.v ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/sim/ldpc.v ../../../../lpdc_test_ex.srcs/sources_1/ip/lpdc_test/lpdc_test_sim_netlist.v ../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/hdl/ldpc_wrapper.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common_reset.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_exdes.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_gt_frame_gen.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_gt_usrclk_source.v ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_support.v ../../../../lpdc_test_ex.srcs/sim_1/imports/simulation/lpdc_test_tb.v 
+# -- Skipping module H1
+# -- Skipping module H2
+# -- Skipping module h3
+# -- Skipping module H4
+# -- Compiling module ila_0
+# -- Skipping module encode
+# -- Skipping module fifo_control
+# -- Skipping module ldpc_control
+# -- Skipping module top_test
+# -- Skipping module ldpc_ldpc_1_0_0
+# -- Skipping module ldpc
+# -- Skipping module lpdc_test
+# -- Skipping module lpdc_test_lpdc_test_GT
+# -- Skipping module lpdc_test_lpdc_test_RX_STARTUP_FSM
+# -- Skipping module lpdc_test_lpdc_test_TX_STARTUP_FSM
+# -- Skipping module lpdc_test_lpdc_test_cpll_railing
+# -- Skipping module lpdc_test_lpdc_test_init
+# -- Skipping module lpdc_test_lpdc_test_multi_gt
+# -- Skipping module lpdc_test_lpdc_test_sync_block
+# -- Skipping module lpdc_test_lpdc_test_sync_block_0
+# -- Skipping module lpdc_test_lpdc_test_sync_block_1
+# -- Skipping module lpdc_test_lpdc_test_sync_block_10
+# -- Skipping module lpdc_test_lpdc_test_sync_block_11
+# -- Skipping module lpdc_test_lpdc_test_sync_block_2
+# -- Skipping module lpdc_test_lpdc_test_sync_block_3
+# -- Skipping module lpdc_test_lpdc_test_sync_block_4
+# -- Skipping module lpdc_test_lpdc_test_sync_block_5
+# -- Skipping module lpdc_test_lpdc_test_sync_block_6
+# -- Skipping module lpdc_test_lpdc_test_sync_block_7
+# -- Skipping module lpdc_test_lpdc_test_sync_block_8
+# -- Skipping module lpdc_test_lpdc_test_sync_block_9
+# -- Compiling module glbl
+# -- Skipping module ldpc_wrapper
+# -- Skipping module lpdc_test_common
+# -- Skipping module lpdc_test_common_reset
+# -- Compiling module lpdc_test_exdes
+# -- Skipping module lpdc_test_GT_FRAME_GEN
+# -- Skipping module lpdc_test_GT_USRCLK_SOURCE
+# -- Skipping module lpdc_test_support
+# -- Skipping module lpdc_test_TB
+# 
+# Top level modules:
+# 	glbl
+# 	lpdc_test_TB
+# End time: 16:01:16 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 16:01:18 on Nov 13,2023
+# vlog -work xil_defaultlib glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 16:01:18 on Nov 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1135.273 ; gain = 0.000
+INFO: [USF-ModelSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-ModelSim-4] ModelSim::Simulate design
+INFO: [USF-ModelSim-69] Executing 'SIMULATE' step in 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim'
+Program launched (PID=76380)
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1135.273 ; gain = 0.691
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/sources_1/ip/lpdc_test/lpdc_test.xci' is already up-to-date
+[Mon Nov 13 16:16:19 2023] Launched impl_1...
+Run output will be captured here: E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 309 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/ldpc/fpga_ldpc/lpdc_final_ex/.Xil/Vivado-78772-User-2021FZLJGL/dcp1/lpdc_test_exdes_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2192.477 ; gain = 615.750
+Finished Parsing XDC File [E:/ldpc/fpga_ldpc/lpdc_final_ex/.Xil/Vivado-78772-User-2021FZLJGL/dcp1/lpdc_test_exdes_early.xdc]
+Parsing XDC File [E:/ldpc/fpga_ldpc/lpdc_final_ex/.Xil/Vivado-78772-User-2021FZLJGL/dcp1/lpdc_test_exdes.xdc]
+Finished Parsing XDC File [E:/ldpc/fpga_ldpc/lpdc_final_ex/.Xil/Vivado-78772-User-2021FZLJGL/dcp1/lpdc_test_exdes.xdc]
+Parsing XDC File [E:/ldpc/fpga_ldpc/lpdc_final_ex/.Xil/Vivado-78772-User-2021FZLJGL/dcp1/lpdc_test_exdes_late.xdc]
+Finished Parsing XDC File [E:/ldpc/fpga_ldpc/lpdc_final_ex/.Xil/Vivado-78772-User-2021FZLJGL/dcp1/lpdc_test_exdes_late.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.803 . Memory (MB): peak = 2223.852 ; gain = 2.973
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.804 . Memory (MB): peak = 2223.852 ; gain = 2.973
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 86 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 80 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 6 instances
+
+open_run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:28 . Memory (MB): peak = 2349.855 ; gain = 1214.582
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 14 00:48:11 2022...
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 13 16:18:27 2023...

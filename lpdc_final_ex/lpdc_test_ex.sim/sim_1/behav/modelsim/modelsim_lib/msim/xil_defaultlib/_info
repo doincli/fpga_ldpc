@@ -1,0 +1,1025 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.sim/sim_1/behav/modelsim
+T_opt
+!s110 1699861811
+Vf8dV;MCkYAi9Q_1VTN2>`2
+Z1 04 12 4 work lpdc_test_TB fast 0
+Z2 04 4 4 work glbl fast 0
+=1-f02f74ac6533-6551d530-239-1232c
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L fifo_generator_v13_2_1 -L xil_defaultlib -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.5;63
+R0
+T_opt1
+!s110 1699862487
+Vf7fESBPW0Som2E_zN?nYU1
+R1
+R2
+=1-f02f74ac6533-6551d7d4-234-139f0
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L fifo_generator_v13_2_1 -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+R3
+n@_opt1
+R4
+vclk_wiz_0
+Z5 !s10a 1699861652
+Z6 !s110 1699861800
+!i10b 1
+!s100 C?C[28l@^@1;5CI?Gz>Uc0
+I?6>6eHCoM>Ez4nF^HTZ=R2
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z8 w1699861652
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v
+L0 71
+Z9 OL;L;10.5;63
+r1
+!s85 0
+31
+Z10 !s108 1699861799.000000
+Z11 !s107 ../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v|
+Z12 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v|
+!i113 0
+Z13 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 -work xil_defaultlib +incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vclk_wiz_0_clk_wiz
+R5
+R6
+!i10b 1
+!s100 G7GjK<KA978KLSZh9U=dN2
+IYV8[eSUn8zDPn`EP2_RkS2
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v
+Z15 L0 69
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R3
+vencode
+R5
+R6
+!i10b 1
+!s100 SlOBhb8MhJXmM99kV?CTn0
+I;JBRXV==MLToG_jHCU1Nf3
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/Desktop/encode.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/Desktop/encode.v
+L0 3
+R9
+r1
+!s85 0
+31
+Z16 !s108 1699861800.000000
+Z17 !s107 ../../../../lpdc_test_ex.srcs/sim_1/imports/simulation/lpdc_test_tb.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_support.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_gt_usrclk_source.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_gt_frame_gen.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_exdes.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common_reset.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common.v|../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/hdl/ldpc_wrapper.v|../../../../lpdc_test_ex.srcs/sources_1/ip/lpdc_test/lpdc_test_sim_netlist.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/sim/ldpc.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/sim/ldpc_ldpc_1_0_0.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/new/top_test.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/code/ldpc.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/new/fifo_control.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/Desktop/encode.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/ila_0/sim/ila_0.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H4/sim/H4.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/h3/sim/h3.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H2/sim/H2.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/sim/H1.v|
+Z18 !s90 -64|-incr|-work|xil_defaultlib|+incdir+../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/clk_wiz_0|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/sim/H1.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H2/sim/H2.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/h3/sim/h3.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H4/sim/H4.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/ila_0/sim/ila_0.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/Desktop/encode.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/new/fifo_control.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/code/ldpc.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/new/top_test.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/sim/ldpc_ldpc_1_0_0.v|../../../../lpdc_test_ex.ip_user_files/bd/ldpc/sim/ldpc.v|../../../../lpdc_test_ex.srcs/sources_1/ip/lpdc_test/lpdc_test_sim_netlist.v|../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/hdl/ldpc_wrapper.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common_reset.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_exdes.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_gt_frame_gen.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_gt_usrclk_source.v|../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_support.v|../../../../lpdc_test_ex.srcs/sim_1/imports/simulation/lpdc_test_tb.v|
+!i113 0
+R13
+R14
+R3
+vfifo_control
+R5
+R6
+!i10b 1
+!s100 GBa5@[Qoa3c1WnaF8?:z03
+Iic?]k?GLMQ8V4?6^zUQ`Z0
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/new/fifo_control.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/new/fifo_control.v
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vfifo_generator_0
+R5
+R6
+!i10b 1
+!s100 E<]3Ob21JXoIAFK2c<]<X0
+I5FNUm6zCb]dQ0=S34fdGn1
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v
+Z19 L0 56
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R3
+vglbl
+!s110 1699862478
+!i10b 1
+!s100 JWZ^meD<P7inSF0<1SiO32
+IAl?5;D^:bf?I5A^M>WzmU1
+R7
+R0
+w1513215259
+8glbl.v
+Fglbl.v
+L0 6
+R9
+r1
+!s85 0
+31
+!s108 1699862478.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R13
+R3
+vH1
+R5
+R6
+!i10b 1
+!s100 9nXeo?`BX;XOzk1JdRFzm2
+IoF0BIf1AUhfcL]1jNVhPJ1
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/sim/H1.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H1/sim/H1.v
+R19
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+n@h1
+vH2
+R5
+R6
+!i10b 1
+!s100 ;?iCS>HilN8kWD61aEgz_0
+IH_?RjhoUgX9T`5cQ3EC@c3
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H2/sim/H2.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H2/sim/H2.v
+R19
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+n@h2
+vh3
+R5
+R6
+!i10b 1
+!s100 6nzG_:Zn_cZKa;=mmNRfE0
+In_2L=<I=a71MIGVRzH0b@1
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/h3/sim/h3.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/h3/sim/h3.v
+R19
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vH4
+R5
+R6
+!i10b 1
+!s100 dSXBbYd21hh77=81EmFBU3
+Ik;_;HVTl=X^B4YPTl=K_H1
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H4/sim/H4.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H4/sim/H4.v
+R19
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+n@h4
+vila_0
+Z20 !s110 1699862476
+!i10b 1
+!s100 S>jD7]RdlH[kg2l3Mi3^g0
+Ie>1Do_kZ:Oh_ZN=cM^SKd1
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/ila_0/sim/ila_0.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/ila_0/sim/ila_0.v
+L0 49
+R9
+r1
+!s85 0
+31
+Z21 !s108 1699862476.000000
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vldpc
+R5
+R6
+!i10b 1
+!s100 49z3ZogZj^6M23=eoM2[H3
+If=`WYjFDgk3N8czCA3oYC3
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/sim/ldpc.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/sim/ldpc.v
+L0 13
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vldpc_control
+R5
+R6
+!i10b 1
+!s100 7MP<k_aA`=hN[Ca41S>DV2
+Ic5OU^PkTzT0l@83Z4d=?C1
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/code/ldpc.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/imports/code/ldpc.v
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vldpc_ldpc_1_0_0
+R5
+R6
+!i10b 1
+!s100 8A[RK41bjaM9NeCM6l6iC3
+IbK=[?6Hfld:@KI:DIOG?G0
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/sim/ldpc_ldpc_1_0_0.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ip/ldpc_ldpc_1_0_0/sim/ldpc_ldpc_1_0_0.v
+R19
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vldpc_wrapper
+Z22 !s10a 1699861653
+R6
+!i10b 1
+!s100 b66M1oaQQUo=C5>[N857K0
+IM;:CJ`LOei<19gB7i5OFA2
+R7
+R0
+Z23 w1699861653
+8../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/hdl/ldpc_wrapper.v
+F../../../../lpdc_test_ex.srcs/sources_1/bd/ldpc/hdl/ldpc_wrapper.v
+L0 12
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test
+Z24 !s10a 1699861654
+R6
+!i10b 1
+!s100 @Xc>S^6659o>No2iMHEVm1
+I^YodZd;ZPSEZLRBoYL?0T1
+R7
+R0
+Z25 w1699861654
+Z26 8../../../../lpdc_test_ex.srcs/sources_1/ip/lpdc_test/lpdc_test_sim_netlist.v
+Z27 F../../../../lpdc_test_ex.srcs/sources_1/ip/lpdc_test/lpdc_test_sim_netlist.v
+L0 17
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_common
+R24
+R6
+!i10b 1
+!s100 :ZF8;U_F]eUMnb_BGXnNY0
+I]H]AUiVY9b`z_VL_E7M`90
+R7
+R0
+R25
+8../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common.v
+F../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common.v
+R15
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_common_reset
+R24
+R6
+!i10b 1
+!s100 cJ>V<8T`J2m[BF6=J6KAH0
+IcAo^E^8WW^PQDloI=ZDZ:2
+R7
+R0
+R25
+8../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common_reset.v
+F../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_common_reset.v
+L0 74
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_exdes
+R20
+!i10b 1
+!s100 O0]1FWd;;iOJh3jHgFPMj0
+I0U3zXoCBKL0J^VQ13fk8h0
+R7
+R0
+w1699862389
+8../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_exdes.v
+F../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_exdes.v
+Z28 L0 70
+R9
+r1
+!s85 0
+31
+R21
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_GT_FRAME_GEN
+R24
+R6
+!i10b 1
+!s100 l^>@15[4<1K_Ii=a0i:H<3
+I4VM1N?GibiLFm]W5?d[d`3
+R7
+R0
+R25
+8../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_gt_frame_gen.v
+F../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_gt_frame_gen.v
+R15
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+nlpdc_test_@g@t_@f@r@a@m@e_@g@e@n
+vlpdc_test_GT_USRCLK_SOURCE
+R24
+R6
+!i10b 1
+!s100 Bn=WK7F9=]0R=QQ[=h>Y33
+In80h<b8R=mzPa=NiEE6d;0
+R7
+R0
+R25
+8../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_gt_usrclk_source.v
+F../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_gt_usrclk_source.v
+L0 68
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+nlpdc_test_@g@t_@u@s@r@c@l@k_@s@o@u@r@c@e
+vlpdc_test_lpdc_test_cpll_railing
+R24
+R6
+!i10b 1
+!s100 3O@GS52bV3QRk4;OMX9e[0
+Iz6L@kiEE_37cQMN2UMOC`3
+R7
+R0
+R25
+R26
+R27
+L0 4618
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_GT
+R24
+R6
+!i10b 1
+!s100 [U:mNja[;blYNOmgg5`lY1
+IfU7hR2c:jhBhKi=MmUSNj3
+R7
+R0
+R25
+R26
+R27
+L0 376
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+nlpdc_test_lpdc_test_@g@t
+vlpdc_test_lpdc_test_init
+R24
+R6
+!i10b 1
+!s100 54KS_bS1jIJzXo5DQ8A^=0
+I;]zK^SJ@a<^Q[E0TUTNSj1
+R7
+R0
+R25
+R26
+R27
+L0 4759
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_multi_gt
+R24
+R6
+!i10b 1
+!s100 @miZW8KLfK:z1B7UcCzZS1
+IFNi5:_nQ1LDN]ZfbcdRcg3
+R7
+R0
+R25
+R26
+R27
+L0 5889
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_RX_STARTUP_FSM
+R24
+R6
+!i10b 1
+!s100 Q;EZM1hD;]VOeg6a8Tl>M0
+I^_PZWc3NLVQ0RQBh5:51H1
+R7
+R0
+R25
+R26
+R27
+L0 1106
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+nlpdc_test_lpdc_test_@r@x_@s@t@a@r@t@u@p_@f@s@m
+vlpdc_test_lpdc_test_sync_block
+R24
+R6
+!i10b 1
+!s100 [:_SD5S`_iH:ERj^e9kVA1
+IXVHhlXT7H@MCQO[78a`El3
+R7
+R0
+R25
+R26
+R27
+L0 6224
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_0
+R24
+R6
+!i10b 1
+!s100 E_BIGZfi@8ldQ:^DOaIDK1
+I7AiOD=[b]^U03EKY8d48R1
+R7
+R0
+R25
+R26
+R27
+L0 6316
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_1
+R24
+R6
+!i10b 1
+!s100 `Ni9L7NcGmo`z?zh:7j6_3
+Ic?g0P6@Q_A:`]V`d0`N=I1
+R7
+R0
+R25
+R26
+R27
+L0 6511
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_10
+R24
+R6
+!i10b 1
+!s100 5X^;YJQ`0g7N`B]iZ;Foo3
+IOiT6W3:5EDb9oZ[>9=h0j0
+R7
+R0
+R25
+R26
+R27
+L0 6628
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_11
+R24
+R6
+!i10b 1
+!s100 8>g;MO^@>3GVhG`<797aY3
+IzFFjNllQ_>Z>i@hQ:hJ7Y1
+R7
+R0
+R25
+R26
+R27
+L0 6720
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_2
+R24
+R6
+!i10b 1
+!s100 fN]O7b<2N^X<]5SR5E6K53
+IXk;Vl@]aVzXn@P1Q:iRK<2
+R7
+R0
+R25
+R26
+R27
+L0 6812
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_3
+R24
+R6
+!i10b 1
+!s100 2UPLLoM751Dbe6C@mFIHI0
+I5M[`ZAH`Pf6f9><fiNYJF0
+R7
+R0
+R25
+R26
+R27
+L0 6904
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_4
+R24
+R6
+!i10b 1
+!s100 480z=DffGK?nH]0EgXc920
+IUAhOX;E^KjR5<BmQgL4MR1
+R7
+R0
+R25
+R26
+R27
+L0 6996
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_5
+R24
+R6
+!i10b 1
+!s100 je3c[Z3Yd96ob`m>Z221G1
+IbMJZF`haBH93A[R4FP0FB2
+R7
+R0
+R25
+R26
+R27
+L0 7088
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_6
+R24
+R6
+!i10b 1
+!s100 PLcn0UJk9^F[gIXKILH4?1
+I?9AT`;UVB1KUknLUYjG^`1
+R7
+R0
+R25
+R26
+R27
+L0 7180
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_7
+R24
+R6
+!i10b 1
+!s100 c^ZYE8F_PagLgb>ChLn]o3
+I9=PF^j`aUR6UH=VYd47]S2
+R7
+R0
+R25
+R26
+R27
+L0 7319
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_8
+R24
+R6
+!i10b 1
+!s100 :f6?XBR4_40PV9Zc5Zz6>3
+I;?@GSo>FAY_I]ZBJ^l1Ec0
+R7
+R0
+R25
+R26
+R27
+L0 7604
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_sync_block_9
+R24
+R6
+!i10b 1
+!s100 [clC[oel^452?7GGELSif0
+InCoLQaONz_YQUjIG><Vem2
+R7
+R0
+R25
+R26
+R27
+L0 7721
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_lpdc_test_TX_STARTUP_FSM
+R24
+R6
+!i10b 1
+!s100 ]=XKTKh_bj::EzdAng4g=3
+IHFa^U5lWdTKIkkQ[]H8c21
+R7
+R0
+R25
+R26
+R27
+L0 2826
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+nlpdc_test_lpdc_test_@t@x_@s@t@a@r@t@u@p_@f@s@m
+vlpdc_test_support
+R24
+R6
+!i10b 1
+!s100 `jo1[lV]?m3aSenUPf2OX0
+Ij^V7O6PkziUkYo?0Q:CnR0
+R7
+R0
+R25
+8../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_support.v
+F../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/support/lpdc_test_support.v
+R28
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+vlpdc_test_TB
+R22
+R6
+!i10b 1
+!s100 I:V9?27dhLQ`IlgS^m^On3
+IkT0O@cXEoSA5cIObSPNa93
+R7
+R0
+R23
+8../../../../lpdc_test_ex.srcs/sim_1/imports/simulation/lpdc_test_tb.v
+F../../../../lpdc_test_ex.srcs/sim_1/imports/simulation/lpdc_test_tb.v
+L0 66
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3
+nlpdc_test_@t@b
+vtop_test
+R5
+R6
+!i10b 1
+!s100 PK^?^O6VSCMVYCZGS6LcS0
+IAZW8E3`KbFU>_T:7[CZ831
+R7
+R0
+R8
+8../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/new/top_test.v
+F../../../../lpdc_test_ex.ip_user_files/bd/ldpc/ipshared/3f9f/ldpc_fifo/ldpc_fifo.srcs/sources_1/new/top_test.v
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R13
+R14
+R3

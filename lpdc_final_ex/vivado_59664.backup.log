@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Nov 13 15:47:41 2023
+# Process ID: 59664
+# Current directory: E:/ldpc/fpga_ldpc/lpdc_final_ex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent70480 E:\ldpc\fpga_ldpc\lpdc_final_ex\lpdc_test_ex.xpr
+# Log file: E:/ldpc/fpga_ldpc/lpdc_final_ex/vivado.log
+# Journal file: E:/ldpc/fpga_ldpc/lpdc_final_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/ldpc/fpga_ldpc/lpdc_final_ex/lpdc_test_ex.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/doinc/Desktop/my_ldpc/lpdc_final_ex' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'E:/ldpc/my_ldpc', nor could it be found using path 'C:/Users/doinc/Desktop/my_ldpc'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/ldpc/my_ldpc'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2017.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'ldpc.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+ldpc_ldpc_1_0_0
+
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 940.664 ; gain = 221.848
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 13 15:48:51 2023...

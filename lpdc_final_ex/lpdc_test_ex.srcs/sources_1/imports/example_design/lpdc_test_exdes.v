@@ -740,6 +740,12 @@ ldpc_wrapper uut(
 
 );
 
+ila_0 data_in (
+	.clk(gt0_rxusrclk2_i), // input wire clk
+
+
+	.probe0(gt0_rxdata_i) // input wire [15:0] probe0
+);
 endmodule
     
 

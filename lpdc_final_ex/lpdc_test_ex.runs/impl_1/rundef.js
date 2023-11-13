@@ -8,9 +8,9 @@ var WshShell = new ActiveXObject( "WScript.Shell" );
 var ProcEnv = WshShell.Environment( "Process" );
 var PathVal = ProcEnv("PATH");
 if ( PathVal.length == 0 ) {
-  PathVal = "D:/fpga/SDK/2017.4/bin;D:/fpga/Vivado/2017.4/ids_lite/ISE/bin/nt64;D:/fpga/Vivado/2017.4/ids_lite/ISE/lib/nt64;D:/fpga/Vivado/2017.4/bin;";
+  PathVal = "D:/xilinx/SDK/2017.4/bin;D:/xilinx/Vivado/2017.4/ids_lite/ISE/bin/nt64;D:/xilinx/Vivado/2017.4/ids_lite/ISE/lib/nt64;D:/xilinx/Vivado/2017.4/bin;";
 } else {
-  PathVal = "D:/fpga/SDK/2017.4/bin;D:/fpga/Vivado/2017.4/ids_lite/ISE/bin/nt64;D:/fpga/Vivado/2017.4/ids_lite/ISE/lib/nt64;D:/fpga/Vivado/2017.4/bin;" + PathVal;
+  PathVal = "D:/xilinx/SDK/2017.4/bin;D:/xilinx/Vivado/2017.4/ids_lite/ISE/bin/nt64;D:/xilinx/Vivado/2017.4/ids_lite/ISE/lib/nt64;D:/xilinx/Vivado/2017.4/bin;" + PathVal;
 }
 
 ProcEnv("PATH") = PathVal;
@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 // pre-commands:
-ISETouchFile( "init_design", "begin" );
+ISETouchFile( "write_bitstream", "begin" );
 ISEStep( "vivado",
          "-log lpdc_test_exdes.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source lpdc_test_exdes.tcl -notrace" );
 

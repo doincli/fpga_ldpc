@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date                      : Sun Apr 24 23:12:36 2022
-| Host                      : LAPTOP-9P7C5HJO running 64-bit major release  (build 9200)
+| Date                      : Mon Nov 13 16:13:44 2023
+| Host                      : User-2021FZLJGL running 64-bit major release  (build 9200)
 | Command                   : report_io -file lpdc_test_exdes_io_placed.rpt
 | Design                    : lpdc_test_exdes
 | Device                    : xc7k325t

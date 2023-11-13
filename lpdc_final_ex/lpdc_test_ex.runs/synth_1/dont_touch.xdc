@@ -3,6 +3,9 @@
 
 # XDC: imports/example_design/lpdc_test_exdes.xdc
 
+# IP: ip/ila_0/ila_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ila_0 || ORIG_REF_NAME==ila_0} -quiet] -quiet
+
 # Block Designs: bd/ldpc/ldpc.bd
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ldpc || ORIG_REF_NAME==ldpc} -quiet] -quiet
 
@@ -28,10 +31,18 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==h3 || ORIG_REF_
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==H4 || ORIG_REF_NAME==H4} -quiet] -quiet
 
 # IP: bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/ila_0/ila_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ila_0 || ORIG_REF_NAME==ila_0} -quiet] -quiet
+#dup# set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==ila_0 || ORIG_REF_NAME==ila_0} -quiet] -quiet
 
 # IP: ip/lpdc_test/lpdc_test.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==lpdc_test || ORIG_REF_NAME==lpdc_test} -quiet] -quiet
+
+# XDC: ip/ila_0/ila_v6_2/constraints/ila_impl.xdc
+set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==ila_0 || ORIG_REF_NAME==ila_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: ip/ila_0/ila_v6_2/constraints/ila.xdc
+#dup# set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==ila_0 || ORIG_REF_NAME==ila_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: ip/ila_0/ila_0_ooc.xdc
 
 # XDC: bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xdc
 set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==fifo_generator_0 || ORIG_REF_NAME==fifo_generator_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
@@ -53,7 +64,7 @@ set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {R
 # XDC: bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/H4/H4_ooc.xdc
 
 # XDC: bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc
-set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==ila_0 || ORIG_REF_NAME==ila_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
+#dup# set_property DONT_TOUCH TRUE [get_cells [split [join [get_cells -hier -filter {REF_NAME==ila_0 || ORIG_REF_NAME==ila_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
 # XDC: bd/ldpc/ip/ldpc_ldpc_1_0_0/ldpc_fifo/ldpc_fifo.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc
 

@@ -1,0 +1,230 @@
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {lpdc_test_TB_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L fifo_generator_v13_2_1 -L blk_mem_gen_v8_4_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.lpdc_test_TB xil_defaultlib.glbl 
+# Start time: 16:01:24 on Nov 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "ldpc_control(fast)".
+# ** Warning: ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_exdes.v(743): (vopt-2685) [TFMPC] - Too few port connections for 'data_in'.  Expected 3, found 2.
+# ** Warning: ../../../../lpdc_test_ex.srcs/sources_1/imports/example_design/lpdc_test_exdes.v(743): (vopt-2718) [TFMPC] - Missing connection for port 'probe1'.
+# Loading work.lpdc_test_TB(fast)
+# Loading work.lpdc_test_exdes(fast)
+# Loading work.lpdc_test_support(fast)
+# Loading work.lpdc_test_GT_USRCLK_SOURCE(fast)
+# Loading unisims_ver.IBUFDS_GTE2(fast)
+# Loading unisims_ver.BUFG(fast)
+# Loading work.lpdc_test_common(fast)
+# Loading unisims_ver.GTXE2_COMMON(fast)
+# Loading work.lpdc_test_common_reset(fast)
+# Loading work.lpdc_test(fast)
+# Loading work.lpdc_test_lpdc_test_init(fast)
+# Loading unisims_ver.LUT5(fast)
+# Loading unisims_ver.LUT5(fast__1)
+# Loading unisims_ver.LUT5(fast__2)
+# Loading unisims_ver.LUT4(fast)
+# Loading unisims_ver.LUT5(fast__3)
+# Loading unisims_ver.LUT5(fast__4)
+# Loading unisims_ver.LUT4(fast__1)
+# Loading unisims_ver.FDRE(fast)
+# Loading unisims_ver.CARRY4(fast)
+# Loading work.lpdc_test_lpdc_test_RX_STARTUP_FSM(fast)
+# Loading unisims_ver.LUT6(fast)
+# Loading unisims_ver.LUT6(fast__1)
+# Loading unisims_ver.LUT2(fast)
+# Loading unisims_ver.LUT2(fast__1)
+# Loading unisims_ver.LUT3(fast)
+# Loading unisims_ver.LUT5(fast__5)
+# Loading unisims_ver.LUT6(fast__2)
+# Loading unisims_ver.MUXF7(fast)
+# Loading unisims_ver.LUT6(fast__3)
+# Loading unisims_ver.LUT5(fast__6)
+# Loading unisims_ver.LUT5(fast__7)
+# Loading unisims_ver.LUT1(fast)
+# Loading unisims_ver.LUT2(fast__2)
+# Loading unisims_ver.LUT3(fast__1)
+# Loading unisims_ver.LUT4(fast__2)
+# Loading unisims_ver.LUT5(fast__8)
+# Loading unisims_ver.LUT6(fast__4)
+# Loading unisims_ver.LUT6(fast__5)
+# Loading unisims_ver.LUT2(fast__3)
+# Loading unisims_ver.LUT5(fast__9)
+# Loading unisims_ver.LUT4(fast__3)
+# Loading unisims_ver.LUT6(fast__6)
+# Loading unisims_ver.FDCE(fast)
+# Loading unisims_ver.LUT6(fast__7)
+# Loading unisims_ver.LUT5(fast__10)
+# Loading unisims_ver.LUT5(fast__11)
+# Loading unisims_ver.LUT5(fast__12)
+# Loading unisims_ver.LUT5(fast__13)
+# Loading unisims_ver.FDSE(fast)
+# Loading unisims_ver.LUT5(fast__14)
+# Loading work.lpdc_test_lpdc_test_sync_block_5(fast)
+# Loading work.lpdc_test_lpdc_test_sync_block_6(fast)
+# Loading work.lpdc_test_lpdc_test_sync_block_7(fast)
+# Loading unisims_ver.LUT6(fast__8)
+# Loading unisims_ver.LUT6(fast__9)
+# Loading unisims_ver.LUT5(fast__15)
+# Loading unisims_ver.LUT6(fast__10)
+# Loading unisims_ver.LUT6(fast__11)
+# Loading unisims_ver.LUT6(fast__12)
+# Loading unisims_ver.LUT3(fast__2)
+# Loading unisims_ver.LUT6(fast__13)
+# Loading unisims_ver.LUT3(fast__3)
+# Loading unisims_ver.LUT5(fast__16)
+# Loading unisims_ver.LUT5(fast__17)
+# Loading unisims_ver.LUT6(fast__14)
+# Loading unisims_ver.LUT4(fast__4)
+# Loading work.lpdc_test_lpdc_test_sync_block_8(fast)
+# Loading unisims_ver.LUT4(fast__5)
+# Loading work.lpdc_test_lpdc_test_sync_block_9(fast)
+# Loading work.lpdc_test_lpdc_test_sync_block_10(fast)
+# Loading work.lpdc_test_lpdc_test_sync_block_11(fast)
+# Loading unisims_ver.LUT4(fast__6)
+# Loading unisims_ver.LUT6(fast__15)
+# Loading unisims_ver.LUT6(fast__16)
+# Loading unisims_ver.LUT5(fast__18)
+# Loading unisims_ver.LUT5(fast__19)
+# Loading unisims_ver.LUT3(fast__4)
+# Loading unisims_ver.LUT6(fast__17)
+# Loading unisims_ver.LUT4(fast__7)
+# Loading unisims_ver.LUT4(fast__8)
+# Loading unisims_ver.LUT6(fast__18)
+# Loading unisims_ver.LUT6(fast__19)
+# Loading unisims_ver.LUT6(fast__20)
+# Loading unisims_ver.LUT4(fast__9)
+# Loading unisims_ver.LUT4(fast__10)
+# Loading unisims_ver.LUT5(fast__20)
+# Loading unisims_ver.LUT4(fast__11)
+# Loading unisims_ver.LUT6(fast__21)
+# Loading unisims_ver.LUT3(fast__5)
+# Loading unisims_ver.LUT4(fast__12)
+# Loading unisims_ver.FDSE(fast__1)
+# Loading work.lpdc_test_lpdc_test_TX_STARTUP_FSM(fast)
+# Loading unisims_ver.LUT6(fast__22)
+# Loading unisims_ver.LUT6(fast__23)
+# Loading unisims_ver.LUT6(fast__24)
+# Loading unisims_ver.LUT5(fast__21)
+# Loading unisims_ver.LUT3(fast__6)
+# Loading unisims_ver.LUT6(fast__25)
+# Loading unisims_ver.LUT4(fast__13)
+# Loading unisims_ver.LUT5(fast__22)
+# Loading unisims_ver.LUT3(fast__7)
+# Loading unisims_ver.LUT5(fast__23)
+# Loading unisims_ver.LUT5(fast__24)
+# Loading unisims_ver.LUT6(fast__26)
+# Loading unisims_ver.LUT5(fast__25)
+# Loading work.lpdc_test_lpdc_test_sync_block(fast)
+# Loading work.lpdc_test_lpdc_test_sync_block_0(fast)
+# Loading unisims_ver.LUT5(fast__26)
+# Loading unisims_ver.LUT4(fast__14)
+# Loading unisims_ver.LUT6(fast__27)
+# Loading unisims_ver.LUT6(fast__28)
+# Loading work.lpdc_test_lpdc_test_sync_block_1(fast)
+# Loading work.lpdc_test_lpdc_test_sync_block_2(fast)
+# Loading work.lpdc_test_lpdc_test_sync_block_3(fast)
+# Loading work.lpdc_test_lpdc_test_sync_block_4(fast)
+# Loading unisims_ver.LUT3(fast__8)
+# Loading unisims_ver.LUT5(fast__27)
+# Loading unisims_ver.LUT4(fast__15)
+# Loading unisims_ver.LUT3(fast__9)
+# Loading unisims_ver.LUT4(fast__16)
+# Loading unisims_ver.LUT5(fast__28)
+# Loading unisims_ver.LUT6(fast__29)
+# Loading unisims_ver.LUT5(fast__29)
+# Loading unisims_ver.LUT6(fast__30)
+# Loading unisims_ver.LUT2(fast__4)
+# Loading unisims_ver.LUT4(fast__17)
+# Loading unisims_ver.LUT6(fast__31)
+# Loading unisims_ver.LUT5(fast__30)
+# Loading unisims_ver.LUT5(fast__31)
+# Loading unisims_ver.LUT4(fast__18)
+# Loading work.lpdc_test_lpdc_test_multi_gt(fast)
+# Loading work.lpdc_test_lpdc_test_cpll_railing(fast)
+# Loading unisims_ver.SRLC32E(fast)
+# Loading unisims_ver.SRLC32E(fast__1)
+# Loading unisims_ver.FDRE(fast__1)
+# Loading unisims_ver.SRLC32E(fast__2)
+# Loading unisims_ver.SRLC32E(fast__3)
+# Loading unisims_ver.BUFH(fast)
+# Loading work.lpdc_test_lpdc_test_GT(fast)
+# Loading unisims_ver.GTXE2_CHANNEL(fast)
+# Loading unisims_ver.IBUFDS(fast)
+# Loading work.lpdc_test_GT_FRAME_GEN(fast)
+# Loading work.ldpc_wrapper(fast)
+# Loading work.ldpc(fast)
+# Loading work.ldpc_ldpc_1_0_0(fast)
+# Loading work.top_test(fast)
+# Loading work.fifo_control(fast)
+# Loading work.clk_wiz_0(fast)
+# Loading work.clk_wiz_0_clk_wiz(fast)
+# Loading unisims_ver.IBUF(fast)
+# Loading unisims_ver.PLLE2_ADV(fast)
+# Loading work.fifo_generator_0(fast)
+# Loading fifo_generator_v13_2_1.fifo_generator_vlog_beh(fast)
+# Loading fifo_generator_v13_2_1.fifo_generator_v13_2_1_CONV_VER(fast)
+# Loading fifo_generator_v13_2_1.fifo_generator_v13_2_1_bhv_ver_as(fast)
+# Loading fifo_generator_v13_2_1.fifo_generator_v13_2_1_sync_stage(fast)
+# Loading work.ldpc_control(fast)
+# Loading work.H1(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_output_reg_stage(fast)
+# Loading work.H2(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(fast__1)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(fast__1)
+# Loading work.h3(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(fast__2)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(fast__2)
+# Loading work.H4(fast)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(fast__3)
+# Loading blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(fast__3)
+# Loading work.encode(fast)
+# Loading work.ila_0(fast)
+# Loading work.glbl(fast)
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Timing checks are not valid
+# WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module lpdc_test_TB.lpdc_test_exdes_i.uut.ldpc_i.ldpc_1_0.inst.u2.h1.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module lpdc_test_TB.lpdc_test_exdes_i.uut.ldpc_i.ldpc_1_0.inst.u2.h2.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module lpdc_test_TB.lpdc_test_exdes_i.uut.ldpc_i.ldpc_1_0.inst.u2.h3.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+#  Block Memory Generator module loading initial data...
+#  Block Memory Generator data initialization complete.
+# Block Memory Generator module lpdc_test_TB.lpdc_test_exdes_i.uut.ldpc_i.ldpc_1_0.inst.u2.h4.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+# Timing checks are valid
+add wave -position insertpoint  \
+sim:/lpdc_test_TB/lpdc_test_exdes_i/uut/ldpc_i/ldpc_1_0/inst/u2/ldpc/clk \
+sim:/lpdc_test_TB/lpdc_test_exdes_i/uut/ldpc_i/ldpc_1_0/inst/u2/ldpc/probe0 \
+sim:/lpdc_test_TB/lpdc_test_exdes_i/uut/ldpc_i/ldpc_1_0/inst/u2/ldpc/probe1
+add wave -position insertpoint  \
+sim:/lpdc_test_TB/lpdc_test_exdes_i/data_in/clk \
+sim:/lpdc_test_TB/lpdc_test_exdes_i/data_in/probe0 \
+sim:/lpdc_test_TB/lpdc_test_exdes_i/data_in/probe1
+add wave -position insertpoint  \
+sim:/lpdc_test_TB/lpdc_test_exdes_i/uut/ldpc_i/ldpc_1_0/inst/u2/ldpc/clk \
+sim:/lpdc_test_TB/lpdc_test_exdes_i/uut/ldpc_i/ldpc_1_0/inst/u2/ldpc/probe0 \
+sim:/lpdc_test_TB/lpdc_test_exdes_i/uut/ldpc_i/ldpc_1_0/inst/u2/ldpc/probe1
+run
+# End time: 16:05:05 on Nov 13,2023, Elapsed time: 0:03:41
+# Errors: 0, Warnings: 2
